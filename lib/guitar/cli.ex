@@ -10,11 +10,17 @@ defmodule Guitar.CLI do
     end
 
     { command_fn, command_opts } = case List.first(args) do
-      "add" -> { &add/2, [] }
-      _ -> { &list/2, [ full: :boolean ] }
+      "add" -> { &add/2, [ strict: [] ] }
+      _ -> {
+          &list/2,
+          [
+            strict: [ count: :integer, full: :boolean ],
+            aliases: [ c: :count, f: :full ]
+          ]
+      }
     end
 
-    { options, [], [] } = OptionParser.parse(tl(args), strict: command_opts)
+    { options, [], [] } = OptionParser.parse(tl(args), command_opts)
 
     File.read!(file) |> Jason.decode!() |> Enum.map(fn entry ->
       Guitar.Log.Entry.from_json(entry)
@@ -25,12 +31,15 @@ defmodule Guitar.CLI do
   end
 
   def list(contents, options) do
-    is_full = Keyword.get(options, :full, false)
-    out = if is_full do
-      contents |> Enum.map(&to_string/1) |> Enum.join("\n")
+    entries = if Keyword.get(options, :full, false) do
+      contents
     else
-      contents |> List.last |> to_string()
+      contents |> Enum.take(Keyword.get(options, :count, 1))
     end
-    IO.puts out
+
+    entries
+      |> Enum.map(&to_string/1)
+      |> Enum.join("\n")
+      |> IO.puts
   end
 end
