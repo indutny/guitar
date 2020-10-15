@@ -1,13 +1,11 @@
 defmodule Guitar.Log.Entry do
   @type entry :: Guitar.Log.Entry
 
-  defstruct [
-    date: NaiveDateTime.local_now() |> NaiveDateTime.to_date(),
-    exercises: []
-  ]
+  defstruct date: NaiveDateTime.local_now() |> NaiveDateTime.to_date(),
+            exercises: []
 
   @spec from_json(Map.t()) :: entry()
-  def from_json(%{ "date" => date, "exercises" => exercises }) do
+  def from_json(%{"date" => date, "exercises" => exercises}) do
     %Guitar.Log.Entry{
       date: Date.from_iso8601!(date),
       exercises: exercises |> Enum.map(&Guitar.Log.Exercise.from_json/1)

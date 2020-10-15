@@ -5,16 +5,17 @@ defmodule Guitar.Log.Exercise do
   @type exercise :: Guitar.Log.Exercise
 
   @spec from_json(Map.t()) :: exercise()
-  def from_json(%{ "name" => name, "bpm" => bpm } = json) do
+  def from_json(%{"name" => name, "bpm" => bpm} = json) do
     %Guitar.Log.Exercise{
       name: name,
       bpm: bpm,
       notes: json["notes"],
-      strings: case json["strings"] do
-        "even" -> :even
-        "odd" -> :odd
-        _ -> nil
-      end,
+      strings:
+        case json["strings"] do
+          "even" -> :even
+          "odd" -> :odd
+          _ -> nil
+        end,
       slowdown: json["slowdown"]
     }
   end
@@ -25,12 +26,16 @@ defmodule Guitar.Log.Exercise do
       "name" => e.name,
       "bpm" => e.bpm
     }
+
     out = if e.notes != nil, do: Map.put(out, "notes", e.notes), else: out
-    out = if e.strings do
-      Map.put(out, "strings", to_string(e.strings))
-    else
-      out
-    end
+
+    out =
+      if e.strings do
+        Map.put(out, "strings", to_string(e.strings))
+      else
+        out
+      end
+
     out = if e.slowdown, do: Map.put(out, "slowdown", e.slowdown), else: out
     out
   end
@@ -40,12 +45,14 @@ defmodule Guitar.Log.Exercise do
   """
   @spec alternate(exercise()) :: exercise()
   def alternate(e) do
-    new_strings = case e.strings do
-      :even -> :odd
-      :odd -> :even
-      x -> x
-    end
-    %Guitar.Log.Exercise{ e | strings: new_strings }
+    new_strings =
+      case e.strings do
+        :even -> :odd
+        :odd -> :even
+        x -> x
+      end
+
+    %Guitar.Log.Exercise{e | strings: new_strings}
   end
 end
 
