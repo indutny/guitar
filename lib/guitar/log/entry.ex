@@ -1,5 +1,4 @@
 defmodule Guitar.Log.Entry do
-  @enforce_keys [:date, :exercises]
   defstruct [
     :notes,
     date: NaiveDateTime.local_now() |> NaiveDateTime.to_date(),
