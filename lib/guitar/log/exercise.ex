@@ -58,9 +58,9 @@ end
 
 defimpl String.Chars, for: Guitar.Log.Exercise do
   def to_string(t) do
-    strings = t.strings || "all"
+    strings = if t.strings, do: ", #{t.strings} strings", else: ""
     notes = t.notes && ", _(#{t.notes})_"
     slowdown = t.slowdown && "/#{t.slowdown}"
-    "- #{t.name}: #{t.bpm}#{slowdown} bpm, #{strings} strings#{notes}"
+    "- #{t.name}: #{t.bpm}#{slowdown} bpm#{strings}#{notes}"
   end
 end

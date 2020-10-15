@@ -491,6 +491,6 @@
 - [x] 75 - phryg tap + thrill
 - [x] 45 - phryg sweep
 - [x] 80 - 2 sweep
-- [x] 110 (but triplets) - 3 sweep
-- [x] 60 (but triplets) - sweep arpeggio
-- [x] 90 (but eights) - 4 sweep
+- [x] 55 - 3 sweep
+- [x] 30 - sweep arpeggio
+- [x] 45 - 4 sweep

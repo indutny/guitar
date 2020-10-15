@@ -2,30 +2,1885 @@
   {
     "date": "2020-10-14",
     "exercises": [
-      { "name": "singles", "bpm": 166 },
       {
-        "name": "triplets", "bpm": 83, "strings": "odd", "notes": "stabilizing..."
+        "bpm": 166,
+        "name": "singles"
       },
-      { "name": "sixteenths", "bpm": 105, "strings": "even" },
-      { "name": "crossing 1-3", "bpm": 80, "strings": "even" },
-      { "name": "crossing 3-1", "bpm": 80, "strings": "odd" },
-      { "name": "crossing 3-3", "bpm": 80, "strings": "even" },
-      { "name": "skipping 1-3", "bpm": 70, "strings": "even" },
-      { "name": "skipping 3-1", "bpm": 70, "strings": "odd" },
-      { "name": "skipping 3-3", "bpm": 70, "strings": "even" },
-      { "name": "minor up and down", "bpm": 75 },
-      { "name": "phrygian up and down", "bpm": 75 },
-      { "name": "phrygian shifting", "bpm": 75 },
-      { "name": "economy up", "bpm": 65 },
-      { "name": "economy down", "bpm": 65 },
-      { "name": "rhythm up and down", "bpm": 75 },
-      { "name": "rhythm shifting", "bpm": 75 },
-      { "name": "rhythm tap and thrill", "bpm": 75 },
-      { "name": "ascending sweep", "bpm": 45, "slowdown": 1 },
-      { "name": "sweep 2", "bpm": 80 },
-      { "name": "sweep 3", "bpm": 110, "slowdown": 2 },
-      { "name": "sweep arpeggio", "bpm": 60, "slowdown": 2 },
-      { "name": "sweep 4", "bpm": 90, "slowdown": 2 }
+      {
+        "bpm": 83,
+        "name": "triplets",
+        "strings": "odd"
+      },
+      {
+        "bpm": 105,
+        "name": "sixteenths",
+        "strings": "even"
+      },
+      {
+        "bpm": 80,
+        "name": "crossing 1-3",
+        "strings": "even"
+      },
+      {
+        "bpm": 80,
+        "name": "crossing 3-1",
+        "strings": "odd"
+      },
+      {
+        "bpm": 80,
+        "name": "crossing 3-3",
+        "strings": "even"
+      },
+      {
+        "bpm": 70,
+        "name": "skipping 1-3",
+        "strings": "even"
+      },
+      {
+        "bpm": 70,
+        "name": "skipping 3-1",
+        "strings": "odd"
+      },
+      {
+        "bpm": 70,
+        "name": "skipping 3-3",
+        "strings": "even"
+      },
+      {
+        "bpm": 75,
+        "name": "minor up and down"
+      },
+      {
+        "bpm": 75,
+        "name": "phrygian up and down"
+      },
+      {
+        "bpm": 75,
+        "name": "phrygian shifting"
+      },
+      {
+        "bpm": 65,
+        "name": "economy up"
+      },
+      {
+        "bpm": 65,
+        "name": "economy down"
+      },
+      {
+        "bpm": 75,
+        "name": "phryg rhythm up and down"
+      },
+      {
+        "bpm": 75,
+        "name": "phryg rhythm shifting"
+      },
+      {
+        "bpm": 75,
+        "name": "phryg tap + thrill"
+      },
+      {
+        "bpm": 45,
+        "name": "sweep up"
+      },
+      {
+        "bpm": 80,
+        "name": "sweep 2"
+      },
+      {
+        "bpm": 110,
+        "slowdown": 2,
+        "name": "sweep 3"
+      },
+      {
+        "bpm": 60,
+        "slowdown": 2,
+        "name": "sweep arpeggio"
+      },
+      {
+        "bpm": 90,
+        "slowdown": 2,
+        "name": "4 sweep"
+      }
+    ]
+  },
+  {
+    "date": "2020-10-13",
+    "exercises": [
+      {
+        "bpm": 166,
+        "name": "singles"
+      },
+      {
+        "bpm": 83,
+        "name": "triplets",
+        "strings": "even"
+      },
+      {
+        "bpm": 105,
+        "name": "sixteenths",
+        "strings": "odd"
+      },
+      {
+        "bpm": 80,
+        "name": "crossing 1-3",
+        "strings": "odd"
+      },
+      {
+        "bpm": 80,
+        "name": "crossing 3-1",
+        "strings": "even"
+      },
+      {
+        "bpm": 80,
+        "name": "crossing 3-3",
+        "strings": "odd"
+      },
+      {
+        "bpm": 70,
+        "name": "skipping 1-3",
+        "strings": "odd"
+      },
+      {
+        "bpm": 70,
+        "name": "skipping 3-1",
+        "strings": "even"
+      },
+      {
+        "bpm": 70,
+        "name": "skipping 3-3",
+        "strings": "odd"
+      },
+      {
+        "bpm": 75,
+        "name": "minor up and down"
+      },
+      {
+        "bpm": 75,
+        "name": "phrygian up and down"
+      },
+      {
+        "bpm": 75,
+        "name": "phrygian shifting"
+      },
+      {
+        "bpm": 65,
+        "name": "economy up"
+      },
+      {
+        "bpm": 65,
+        "name": "economy down"
+      },
+      {
+        "bpm": 75,
+        "name": "phryg rhythm up and down"
+      },
+      {
+        "bpm": 75,
+        "name": "phryg rhythm shifting"
+      },
+      {
+        "bpm": 75,
+        "name": "phryg tap"
+      },
+      {
+        "bpm": 45,
+        "name": "sweep up"
+      },
+      {
+        "bpm": 65,
+        "name": "phryg rhythm thrill"
+      },
+      {
+        "bpm": 75,
+        "name": "sweep 2"
+      },
+      {
+        "bpm": 50,
+        "name": "sweep 3"
+      }
+    ]
+  },
+  {
+    "date": "2020-10-12",
+    "exercises": [
+      {
+        "bpm": 166,
+        "name": "singles"
+      },
+      {
+        "bpm": 83,
+        "name": "triplets",
+        "strings": "odd"
+      },
+      {
+        "bpm": 105,
+        "name": "sixteenths",
+        "strings": "even"
+      },
+      {
+        "bpm": 80,
+        "name": "crossing 1-3",
+        "strings": "even"
+      },
+      {
+        "bpm": 80,
+        "name": "crossing 3-1",
+        "strings": "odd"
+      },
+      {
+        "bpm": 80,
+        "name": "crossing 3-3",
+        "strings": "even"
+      },
+      {
+        "bpm": 70,
+        "name": "skipping 1-3",
+        "strings": "even"
+      },
+      {
+        "bpm": 70,
+        "name": "skipping 3-1",
+        "strings": "odd"
+      },
+      {
+        "bpm": 70,
+        "name": "skipping 3-3",
+        "strings": "even"
+      },
+      {
+        "bpm": 75,
+        "name": "minor up and down"
+      },
+      {
+        "bpm": 75,
+        "name": "phrygian up and down"
+      },
+      {
+        "bpm": 75,
+        "name": "phrygian shifting"
+      },
+      {
+        "bpm": 65,
+        "name": "economy up"
+      },
+      {
+        "bpm": 65,
+        "name": "economy down"
+      },
+      {
+        "bpm": 75,
+        "name": "phryg rhythm up and down"
+      },
+      {
+        "bpm": 75,
+        "name": "phryg rhythm shifting"
+      },
+      {
+        "bpm": 75,
+        "name": "phryg tap"
+      },
+      {
+        "bpm": 45,
+        "name": "sweep up"
+      },
+      {
+        "bpm": 65,
+        "name": "phryg rhythm thrill"
+      },
+      {
+        "bpm": 65,
+        "name": "sweep 2"
+      },
+      {
+        "bpm": 50,
+        "name": "sweep 3"
+      }
+    ]
+  },
+  {
+    "date": "2020-10-11",
+    "exercises": [
+      {
+        "bpm": 165,
+        "name": "singles"
+      },
+      {
+        "bpm": 80,
+        "name": "triplets",
+        "strings": "even"
+      },
+      {
+        "bpm": 103,
+        "name": "sixteenths",
+        "strings": "odd"
+      },
+      {
+        "bpm": 80,
+        "name": "crossing 1-3",
+        "strings": "odd"
+      },
+      {
+        "bpm": 80,
+        "name": "crossing 3-1",
+        "strings": "even"
+      },
+      {
+        "bpm": 80,
+        "name": "crossing 3-3",
+        "strings": "odd"
+      },
+      {
+        "bpm": 70,
+        "name": "skipping 1-3",
+        "strings": "odd"
+      },
+      {
+        "bpm": 70,
+        "name": "skipping 3-1",
+        "strings": "even"
+      },
+      {
+        "bpm": 70,
+        "name": "skipping 3-3",
+        "strings": "odd"
+      },
+      {
+        "bpm": 75,
+        "name": "minor up and down"
+      },
+      {
+        "bpm": 75,
+        "name": "phrygian up and down"
+      },
+      {
+        "bpm": 75,
+        "name": "phrygian shifting"
+      },
+      {
+        "bpm": 65,
+        "name": "economy up"
+      },
+      {
+        "bpm": 65,
+        "name": "economy down"
+      },
+      {
+        "bpm": 75,
+        "name": "phryg rhythm up and down"
+      },
+      {
+        "bpm": 75,
+        "name": "phryg rhythm shifting"
+      },
+      {
+        "bpm": 75,
+        "name": "phryg tap"
+      },
+      {
+        "bpm": 45,
+        "name": "sweep up"
+      },
+      {
+        "bpm": 65,
+        "name": "phryg rhythm thrill"
+      },
+      {
+        "bpm": 65,
+        "name": "sweep 2"
+      },
+      {
+        "bpm": 50,
+        "name": "sweep 3"
+      }
+    ]
+  },
+  {
+    "date": "2020-10-10",
+    "exercises": [
+      {
+        "bpm": 165,
+        "name": "singles"
+      },
+      {
+        "bpm": 79,
+        "name": "triplets",
+        "strings": "odd"
+      },
+      {
+        "bpm": 102,
+        "name": "sixteenths",
+        "strings": "even"
+      },
+      {
+        "bpm": 75,
+        "name": "crossing 1-3",
+        "strings": "even"
+      },
+      {
+        "bpm": 75,
+        "name": "crossing 3-1",
+        "strings": "odd"
+      },
+      {
+        "bpm": 75,
+        "name": "crossing 3-3",
+        "strings": "even"
+      },
+      {
+        "bpm": 70,
+        "name": "skipping 1-3",
+        "strings": "even"
+      },
+      {
+        "bpm": 70,
+        "name": "skipping 3-1",
+        "strings": "odd"
+      },
+      {
+        "bpm": 70,
+        "name": "skipping 3-3",
+        "strings": "even"
+      },
+      {
+        "bpm": 75,
+        "name": "minor up and down"
+      },
+      {
+        "bpm": 75,
+        "name": "phrygian up and down"
+      },
+      {
+        "bpm": 75,
+        "name": "phrygian shifting"
+      },
+      {
+        "bpm": 60,
+        "name": "economy up"
+      },
+      {
+        "bpm": 60,
+        "name": "economy down"
+      },
+      {
+        "bpm": 70,
+        "name": "phryg rhythm up and down"
+      },
+      {
+        "bpm": 70,
+        "name": "phryg rhythm shifting"
+      },
+      {
+        "bpm": 65,
+        "name": "phryg tap"
+      },
+      {
+        "bpm": 40,
+        "name": "sweep up"
+      },
+      {
+        "bpm": 65,
+        "name": "phryg rhythm thrill"
+      },
+      {
+        "bpm": 65,
+        "name": "sweep 2"
+      },
+      {
+        "bpm": 50,
+        "name": "sweep 3"
+      }
+    ]
+  },
+  {
+    "date": "2020-10-09",
+    "exercises": [
+      {
+        "bpm": 165,
+        "name": "singles"
+      },
+      {
+        "bpm": 79,
+        "name": "triplets",
+        "strings": "even"
+      },
+      {
+        "bpm": 102,
+        "name": "sixteenths",
+        "strings": "odd"
+      },
+      {
+        "bpm": 75,
+        "name": "crossing 1-3",
+        "strings": "odd"
+      },
+      {
+        "bpm": 75,
+        "name": "crossing 3-1",
+        "strings": "even"
+      },
+      {
+        "bpm": 75,
+        "name": "crossing 3-3",
+        "strings": "odd"
+      },
+      {
+        "bpm": 65,
+        "name": "skipping 1-3",
+        "strings": "odd"
+      },
+      {
+        "bpm": 65,
+        "name": "skipping 3-1",
+        "strings": "even"
+      },
+      {
+        "bpm": 65,
+        "name": "skipping 3-3",
+        "strings": "odd"
+      },
+      {
+        "bpm": 70,
+        "name": "minor up and down"
+      },
+      {
+        "bpm": 70,
+        "name": "phrygian up and down"
+      },
+      {
+        "bpm": 70,
+        "name": "phrygian shifting"
+      },
+      {
+        "bpm": 60,
+        "name": "crossing multiple #6"
+      },
+      {
+        "bpm": 60,
+        "name": "crossing multiple #7"
+      },
+      {
+        "bpm": 70,
+        "name": "phryg rhythm up and down"
+      },
+      {
+        "bpm": 70,
+        "name": "phryg rhythm shifting"
+      },
+      {
+        "bpm": 65,
+        "name": "phryg tap"
+      },
+      {
+        "bpm": 40,
+        "name": "sweep up"
+      },
+      {
+        "bpm": 65,
+        "name": "phryg rhythm thrill"
+      },
+      {
+        "bpm": 65,
+        "name": "sweep 2"
+      },
+      {
+        "bpm": 50,
+        "name": "sweep 3"
+      }
+    ]
+  },
+  {
+    "date": "2020-10-08",
+    "exercises": [
+      {
+        "bpm": 165,
+        "name": "singles"
+      },
+      {
+        "bpm": 79,
+        "name": "triplets",
+        "strings": "odd"
+      },
+      {
+        "bpm": 102,
+        "name": "sixteenths",
+        "strings": "even"
+      },
+      {
+        "bpm": 75,
+        "name": "crossing 1-3",
+        "strings": "even"
+      },
+      {
+        "bpm": 75,
+        "name": "crossing 3-1",
+        "strings": "odd"
+      },
+      {
+        "bpm": 75,
+        "name": "crossing 3-3",
+        "strings": "even"
+      },
+      {
+        "bpm": 65,
+        "name": "skipping 1-3",
+        "strings": "even"
+      },
+      {
+        "bpm": 65,
+        "name": "skipping 3-1",
+        "strings": "odd"
+      },
+      {
+        "bpm": 65,
+        "name": "skipping 3-3",
+        "strings": "even"
+      },
+      {
+        "bpm": 65,
+        "name": "minor up and down"
+      },
+      {
+        "bpm": 65,
+        "name": "phrygian up and down"
+      },
+      {
+        "bpm": 65,
+        "name": "phrygian shifting"
+      },
+      {
+        "bpm": 60,
+        "name": "crossing multiple #6"
+      },
+      {
+        "bpm": 60,
+        "name": "crossing multiple #7"
+      },
+      {
+        "bpm": 65,
+        "name": "phryg rhythm up and down"
+      },
+      {
+        "bpm": 65,
+        "name": "phryg rhythm shifting"
+      },
+      {
+        "bpm": 65,
+        "name": "phryg tap"
+      },
+      {
+        "bpm": 40,
+        "name": "sweep up"
+      },
+      {
+        "bpm": 65,
+        "name": "phryg rhythm thrill"
+      },
+      {
+        "bpm": 65,
+        "name": "sweep 2"
+      },
+      {
+        "bpm": 45,
+        "name": "sweep 3"
+      }
+    ]
+  },
+  {
+    "date": "2020-10-07",
+    "exercises": [
+      {
+        "bpm": 162,
+        "name": "singles"
+      },
+      {
+        "bpm": 79,
+        "name": "triplets",
+        "strings": "even"
+      },
+      {
+        "bpm": 102,
+        "name": "sixteenths",
+        "strings": "odd"
+      },
+      {
+        "bpm": 75,
+        "name": "crossing 1-3",
+        "strings": "odd"
+      },
+      {
+        "bpm": 75,
+        "name": "crossing 3-1",
+        "strings": "even"
+      },
+      {
+        "bpm": 75,
+        "name": "crossing 3-3",
+        "strings": "odd"
+      },
+      {
+        "bpm": 65,
+        "name": "skipping 1-3",
+        "strings": "odd"
+      },
+      {
+        "bpm": 65,
+        "name": "skipping 3-1",
+        "strings": "even"
+      },
+      {
+        "bpm": 65,
+        "name": "skipping 3-3",
+        "strings": "odd"
+      },
+      {
+        "bpm": 65,
+        "name": "minor up and down"
+      },
+      {
+        "bpm": 65,
+        "name": "phrygian up and down"
+      },
+      {
+        "bpm": 65,
+        "name": "phrygian shifting"
+      },
+      {
+        "bpm": 60,
+        "name": "crossing multiple #6"
+      },
+      {
+        "bpm": 60,
+        "name": "crossing multiple #7"
+      },
+      {
+        "bpm": 65,
+        "name": "phryg rhythm up"
+      },
+      {
+        "bpm": 65,
+        "name": "phryg rhythm down"
+      },
+      {
+        "bpm": 65,
+        "name": "phryg rhythm shifting"
+      },
+      {
+        "bpm": 40,
+        "name": "phryg tap"
+      },
+      {
+        "bpm": 40,
+        "name": "sweep up"
+      },
+      {
+        "bpm": 65,
+        "name": "phryg rhythm thrill"
+      },
+      {
+        "bpm": 65,
+        "name": "sweep 2"
+      },
+      {
+        "bpm": 45,
+        "name": "sweep 3"
+      }
+    ]
+  },
+  {
+    "date": "2020-10-06",
+    "exercises": [
+      {
+        "bpm": 162,
+        "name": "singles"
+      },
+      {
+        "bpm": 79,
+        "name": "triplets",
+        "strings": "odd"
+      },
+      {
+        "bpm": 107,
+        "name": "sixteenths",
+        "strings": "even"
+      },
+      {
+        "bpm": 75,
+        "name": "crossing 1-3",
+        "strings": "even"
+      },
+      {
+        "bpm": 75,
+        "name": "crossing 3-1",
+        "strings": "odd"
+      },
+      {
+        "bpm": 75,
+        "name": "crossing 3-3",
+        "strings": "even"
+      },
+      {
+        "bpm": 65,
+        "name": "skipping 1-3",
+        "strings": "even"
+      },
+      {
+        "bpm": 65,
+        "name": "skipping 3-1",
+        "strings": "odd"
+      },
+      {
+        "bpm": 65,
+        "name": "skipping 3-3",
+        "strings": "even"
+      },
+      {
+        "bpm": 65,
+        "name": "minor up and down"
+      },
+      {
+        "bpm": 65,
+        "name": "phrygian up and down"
+      },
+      {
+        "bpm": 65,
+        "name": "phrygian shifting"
+      },
+      {
+        "bpm": 55,
+        "name": "crossing multiple #6"
+      },
+      {
+        "bpm": 55,
+        "name": "crossing multiple #7"
+      },
+      {
+        "bpm": 65,
+        "name": "rhythm #1"
+      },
+      {
+        "bpm": 65,
+        "name": "rhythm #2"
+      }
+    ]
+  },
+  {
+    "date": "2020-10-05",
+    "exercises": [
+      {
+        "bpm": 162,
+        "name": "singles"
+      },
+      {
+        "bpm": 79,
+        "name": "triplets",
+        "strings": "even"
+      },
+      {
+        "bpm": 107,
+        "name": "sixteenths",
+        "strings": "odd"
+      },
+      {
+        "bpm": 75,
+        "name": "crossing 1-3",
+        "strings": "odd"
+      },
+      {
+        "bpm": 75,
+        "name": "crossing 3-1",
+        "strings": "even"
+      },
+      {
+        "bpm": 75,
+        "name": "crossing 3-3",
+        "strings": "odd"
+      },
+      {
+        "bpm": 65,
+        "name": "skipping 1-3",
+        "strings": "odd"
+      },
+      {
+        "bpm": 65,
+        "name": "skipping 3-1",
+        "strings": "even"
+      },
+      {
+        "bpm": 60,
+        "name": "skipping 3-3",
+        "strings": "odd"
+      },
+      {
+        "bpm": 65,
+        "name": "minor up and down"
+      },
+      {
+        "bpm": 65,
+        "name": "phrygian up and down"
+      },
+      {
+        "bpm": 65,
+        "name": "phrygian shifting"
+      },
+      {
+        "bpm": 45,
+        "name": "crossing multiple #6"
+      },
+      {
+        "bpm": 45,
+        "name": "crossing multiple #7"
+      },
+      {
+        "bpm": 65,
+        "name": "rhythm #1"
+      },
+      {
+        "bpm": 65,
+        "name": "rhythm #2"
+      }
+    ]
+  },
+  {
+    "date": "2020-10-04",
+    "exercises": [
+      {
+        "bpm": 160,
+        "name": "singles"
+      },
+      {
+        "bpm": 79,
+        "name": "triplets",
+        "strings": "odd"
+      },
+      {
+        "bpm": 107,
+        "name": "sixteenths",
+        "strings": "even"
+      },
+      {
+        "bpm": 75,
+        "name": "crossing 1-3",
+        "strings": "even"
+      },
+      {
+        "bpm": 75,
+        "name": "crossing 3-1",
+        "strings": "odd"
+      },
+      {
+        "bpm": 75,
+        "name": "crossing 3-3",
+        "strings": "even"
+      },
+      {
+        "bpm": 65,
+        "name": "skipping 1-3",
+        "strings": "even"
+      },
+      {
+        "bpm": 65,
+        "name": "skipping 3-1",
+        "strings": "odd"
+      },
+      {
+        "bpm": 65,
+        "name": "skipping 3-3",
+        "strings": "even"
+      },
+      {
+        "bpm": 65,
+        "name": "minor up and down"
+      },
+      {
+        "bpm": 65,
+        "name": "phrygian up and down"
+      },
+      {
+        "bpm": 65,
+        "name": "phrygian shifting"
+      },
+      {
+        "bpm": 45,
+        "name": "crossing multiple #6"
+      },
+      {
+        "bpm": 45,
+        "name": "crossing multiple #7"
+      },
+      {
+        "bpm": 65,
+        "name": "rhythm #1"
+      },
+      {
+        "bpm": 65,
+        "name": "rhythm #2"
+      }
+    ]
+  },
+  {
+    "date": "2020-10-03",
+    "exercises": [
+      {
+        "bpm": 167,
+        "name": "singles"
+      },
+      {
+        "bpm": 79,
+        "name": "triplets",
+        "strings": "even"
+      },
+      {
+        "bpm": 107,
+        "name": "sixteenths",
+        "strings": "odd"
+      },
+      {
+        "bpm": 75,
+        "name": "crossing 1-3",
+        "strings": "odd"
+      },
+      {
+        "bpm": 75,
+        "name": "crossing 3-1",
+        "strings": "even"
+      },
+      {
+        "bpm": 75,
+        "name": "crossing 3-3",
+        "strings": "odd"
+      },
+      {
+        "bpm": 65,
+        "name": "skipping 1-3",
+        "strings": "odd"
+      },
+      {
+        "bpm": 65,
+        "name": "skipping 3-1",
+        "strings": "even"
+      },
+      {
+        "bpm": 65,
+        "name": "skipping 3-3",
+        "strings": "odd"
+      },
+      {
+        "bpm": 65,
+        "name": "minor up and down"
+      },
+      {
+        "bpm": 65,
+        "name": "phrygian up and down"
+      },
+      {
+        "bpm": 65,
+        "name": "phrygian shifting"
+      },
+      {
+        "bpm": 45,
+        "name": "crossing multiple #6"
+      },
+      {
+        "bpm": 45,
+        "name": "crossing multiple #7"
+      },
+      {
+        "bpm": 65,
+        "name": "rhythm #1"
+      },
+      {
+        "bpm": 65,
+        "name": "rhythm #2"
+      }
+    ]
+  },
+  {
+    "date": "2020-10-02",
+    "exercises": [
+      {
+        "bpm": 165,
+        "name": "singles"
+      },
+      {
+        "bpm": 77,
+        "name": "triplets",
+        "strings": "odd"
+      },
+      {
+        "bpm": 107,
+        "name": "sixteenths",
+        "strings": "even"
+      },
+      {
+        "bpm": 75,
+        "name": "crossing 1-3",
+        "strings": "even"
+      },
+      {
+        "bpm": 75,
+        "name": "crossing 3-1",
+        "strings": "odd"
+      },
+      {
+        "bpm": 75,
+        "name": "crossing 3-3",
+        "strings": "even"
+      },
+      {
+        "bpm": 65,
+        "name": "skipping 1-3",
+        "strings": "even"
+      },
+      {
+        "bpm": 65,
+        "name": "skipping 3-1",
+        "strings": "odd"
+      },
+      {
+        "bpm": 65,
+        "name": "skipping 3-3",
+        "strings": "even"
+      },
+      {
+        "bpm": 65,
+        "name": "minor down"
+      },
+      {
+        "bpm": 65,
+        "name": "minor up"
+      },
+      {
+        "bpm": 65,
+        "name": "phrygian down"
+      },
+      {
+        "bpm": 65,
+        "name": "phrygian up"
+      },
+      {
+        "bpm": 65,
+        "name": "phrygian shifting"
+      },
+      {
+        "bpm": 45,
+        "name": "crossing multiple #6"
+      },
+      {
+        "bpm": 45,
+        "name": "crossing multiple #7"
+      },
+      {
+        "bpm": 65,
+        "name": "rhythm #1"
+      }
+    ]
+  },
+  {
+    "date": "2020-10-01",
+    "exercises": [
+      {
+        "bpm": 165,
+        "name": "singles"
+      },
+      {
+        "bpm": 77,
+        "name": "triplets",
+        "strings": "even"
+      },
+      {
+        "bpm": 107,
+        "name": "sixteenths",
+        "strings": "odd"
+      },
+      {
+        "bpm": 75,
+        "name": "crossing 1-3",
+        "strings": "odd"
+      },
+      {
+        "bpm": 75,
+        "name": "crossing 3-1",
+        "strings": "even"
+      },
+      {
+        "bpm": 75,
+        "name": "crossing 3-3",
+        "strings": "odd"
+      },
+      {
+        "bpm": 65,
+        "name": "skipping 1-3",
+        "strings": "odd"
+      },
+      {
+        "bpm": 65,
+        "name": "skipping 3-1",
+        "strings": "even"
+      },
+      {
+        "bpm": 65,
+        "name": "skipping 3-3",
+        "strings": "odd"
+      },
+      {
+        "bpm": 65,
+        "name": "minor down"
+      },
+      {
+        "bpm": 65,
+        "name": "minor up"
+      },
+      {
+        "bpm": 65,
+        "name": "phrygian down"
+      },
+      {
+        "bpm": 65,
+        "name": "phrygian up"
+      },
+      {
+        "bpm": 55,
+        "name": "phrygian shifting"
+      },
+      {
+        "bpm": 55,
+        "name": "crossing multiple #6"
+      },
+      {
+        "bpm": 55,
+        "name": "crossing multiple #7"
+      }
+    ]
+  },
+  {
+    "date": "2020-09-30",
+    "exercises": [
+      {
+        "bpm": 165,
+        "name": "singles"
+      },
+      {
+        "bpm": 77,
+        "name": "triplets",
+        "strings": "odd"
+      },
+      {
+        "bpm": 107,
+        "name": "sixteenths",
+        "strings": "even"
+      },
+      {
+        "bpm": 75,
+        "name": "crossing 1-3",
+        "strings": "even"
+      },
+      {
+        "bpm": 75,
+        "name": "crossing 3-1",
+        "strings": "odd"
+      },
+      {
+        "bpm": 75,
+        "name": "crossing 3-3",
+        "strings": "even"
+      },
+      {
+        "bpm": 65,
+        "name": "skipping 1-3",
+        "strings": "even"
+      },
+      {
+        "bpm": 65,
+        "name": "skipping 3-1",
+        "strings": "odd"
+      },
+      {
+        "bpm": 65,
+        "name": "skipping 3-3",
+        "strings": "even"
+      },
+      {
+        "bpm": 65,
+        "name": "minor down"
+      },
+      {
+        "bpm": 65,
+        "name": "minor up"
+      },
+      {
+        "bpm": 65,
+        "name": "phrygian down"
+      },
+      {
+        "bpm": 65,
+        "name": "phrygian up"
+      },
+      {
+        "bpm": 55,
+        "name": "phrygian shifting"
+      },
+      {
+        "bpm": 55,
+        "name": "crossing multiple #6"
+      },
+      {
+        "bpm": 55,
+        "name": "crossing multiple #7"
+      }
+    ]
+  },
+  {
+    "date": "2020-09-29",
+    "exercises": [
+      {
+        "bpm": 165,
+        "name": "singles"
+      },
+      {
+        "bpm": 77,
+        "name": "triplets",
+        "strings": "even"
+      },
+      {
+        "bpm": 107,
+        "name": "sixteenths",
+        "strings": "odd"
+      },
+      {
+        "bpm": 65,
+        "name": "crossing 1-3",
+        "strings": "even"
+      },
+      {
+        "bpm": 65,
+        "name": "crossing 3-1",
+        "strings": "odd"
+      },
+      {
+        "bpm": 65,
+        "name": "crossing 3-3",
+        "strings": "even"
+      },
+      {
+        "bpm": 65,
+        "name": "skipping 1-3",
+        "strings": "odd"
+      },
+      {
+        "bpm": 65,
+        "name": "skipping 3-1",
+        "strings": "even"
+      },
+      {
+        "bpm": 65,
+        "name": "skipping 3-3",
+        "strings": "odd"
+      },
+      {
+        "bpm": 60,
+        "name": "minor down"
+      },
+      {
+        "bpm": 60,
+        "name": "minor up"
+      },
+      {
+        "bpm": 60,
+        "name": "phrygian down"
+      },
+      {
+        "bpm": 60,
+        "name": "phrygian up"
+      }
+    ]
+  },
+  {
+    "date": "2020-09-28",
+    "exercises": [
+      {
+        "bpm": 172,
+        "name": "singles"
+      },
+      {
+        "bpm": 77,
+        "name": "triplets",
+        "strings": "odd"
+      },
+      {
+        "bpm": 107,
+        "name": "sixteenths",
+        "strings": "even"
+      },
+      {
+        "bpm": 65,
+        "name": "crossing 1-3",
+        "strings": "odd"
+      },
+      {
+        "bpm": 65,
+        "name": "crossing 3-1",
+        "strings": "even"
+      },
+      {
+        "bpm": 65,
+        "name": "crossing 3-3",
+        "strings": "odd"
+      },
+      {
+        "bpm": 65,
+        "name": "skipping 1-3",
+        "strings": "even"
+      },
+      {
+        "bpm": 65,
+        "name": "skipping 3-1",
+        "strings": "odd"
+      },
+      {
+        "bpm": 65,
+        "name": "skipping 3-3",
+        "strings": "even"
+      },
+      {
+        "bpm": 60,
+        "name": "minor down"
+      },
+      {
+        "bpm": 60,
+        "name": "minor up"
+      },
+      {
+        "bpm": 60,
+        "name": "phrygian down"
+      },
+      {
+        "bpm": 60,
+        "name": "phrygian up"
+      }
+    ]
+  },
+  {
+    "date": "2020-09-27",
+    "exercises": [
+      {
+        "bpm": 170,
+        "name": "singles"
+      },
+      {
+        "bpm": 75,
+        "name": "triplets"
+      },
+      {
+        "bpm": 105,
+        "name": "sixteenths"
+      },
+      {
+        "bpm": 70,
+        "name": "crossing 1-3"
+      },
+      {
+        "bpm": 70,
+        "name": "crossing 3-1"
+      },
+      {
+        "bpm": 65,
+        "name": "crossing 3-3"
+      },
+      {
+        "bpm": 65,
+        "name": "skipping 1-3"
+      },
+      {
+        "bpm": 65,
+        "name": "skipping 3-1"
+      },
+      {
+        "bpm": 60,
+        "name": "skipping 3-3"
+      },
+      {
+        "bpm": 60,
+        "name": "minor down"
+      },
+      {
+        "bpm": 60,
+        "name": "minor up"
+      },
+      {
+        "bpm": 60,
+        "name": "phrygian down"
+      },
+      {
+        "bpm": 60,
+        "name": "phrygian up"
+      }
+    ]
+  },
+  {
+    "date": "2020-09-26",
+    "exercises": [
+      {
+        "bpm": 175,
+        "name": "singles"
+      },
+      {
+        "bpm": 75,
+        "name": "triplets"
+      },
+      {
+        "bpm": 105,
+        "name": "sixteenths"
+      },
+      {
+        "bpm": 70,
+        "name": "crossing 1-3"
+      },
+      {
+        "bpm": 70,
+        "name": "crossing 3-1"
+      },
+      {
+        "bpm": 70,
+        "name": "crossing 3-3"
+      },
+      {
+        "bpm": 70,
+        "name": "skipping 1-3"
+      },
+      {
+        "bpm": 70,
+        "name": "skipping 3-1"
+      },
+      {
+        "bpm": 65,
+        "name": "skipping 3-3"
+      },
+      {
+        "bpm": 65,
+        "name": "minor down"
+      },
+      {
+        "bpm": 65,
+        "name": "minor up"
+      }
+    ]
+  },
+  {
+    "date": "2020-09-25",
+    "exercises": [
+      {
+        "bpm": 170,
+        "name": "singles"
+      },
+      {
+        "bpm": 70,
+        "name": "triplets"
+      },
+      {
+        "bpm": 100,
+        "name": "sixteenths"
+      },
+      {
+        "bpm": 65,
+        "name": "crossing 1-3"
+      },
+      {
+        "bpm": 65,
+        "name": "crossing 3-1"
+      },
+      {
+        "bpm": 65,
+        "name": "crossing 3-3"
+      },
+      {
+        "bpm": 65,
+        "name": "skipping 1-3"
+      },
+      {
+        "bpm": 65,
+        "name": "skipping 3-1"
+      },
+      {
+        "bpm": 65,
+        "name": "skipping 3-3"
+      },
+      {
+        "bpm": 65,
+        "name": "minor down"
+      },
+      {
+        "bpm": 65,
+        "name": "minor up"
+      }
+    ]
+  },
+  {
+    "date": "2020-09-24",
+    "exercises": [
+      {
+        "bpm": 170,
+        "name": "singles"
+      },
+      {
+        "bpm": 70,
+        "name": "triplets"
+      },
+      {
+        "bpm": 100,
+        "name": "sixteenths"
+      },
+      {
+        "bpm": 65,
+        "name": "crossing 1-3"
+      },
+      {
+        "bpm": 65,
+        "name": "crossing 3-1"
+      },
+      {
+        "bpm": 65,
+        "name": "crossing 3-3"
+      },
+      {
+        "bpm": 65,
+        "name": "skipping 1-3"
+      },
+      {
+        "bpm": 65,
+        "name": "skipping 3-1"
+      },
+      {
+        "bpm": 55,
+        "name": "skipping 3-3"
+      }
+    ]
+  },
+  {
+    "date": "2020-09-23",
+    "exercises": [
+      {
+        "bpm": 165,
+        "name": "singles"
+      },
+      {
+        "bpm": 65,
+        "name": "triplets"
+      },
+      {
+        "bpm": 100,
+        "name": "sixteenths"
+      },
+      {
+        "bpm": 65,
+        "name": "crossing 1-3"
+      },
+      {
+        "bpm": 65,
+        "name": "crossing 3-1"
+      },
+      {
+        "bpm": 65,
+        "name": "crossing 3-3"
+      }
+    ]
+  },
+  {
+    "date": "2020-09-22",
+    "exercises": [
+      {
+        "bpm": 165,
+        "name": "singles"
+      },
+      {
+        "bpm": 65,
+        "name": "triplets"
+      },
+      {
+        "bpm": 80,
+        "name": "sixteenths"
+      }
+    ]
+  },
+  {
+    "date": "2020-09-21",
+    "exercises": [
+      {
+        "bpm": 165,
+        "name": "singles"
+      },
+      {
+        "bpm": 65,
+        "name": "triplets"
+      },
+      {
+        "bpm": 80,
+        "name": "sixteenths"
+      }
+    ]
+  },
+  {
+    "date": "2020-09-20",
+    "exercises": [
+      {
+        "bpm": 165,
+        "name": "singles"
+      },
+      {
+        "bpm": 65,
+        "name": "triplets"
+      },
+      {
+        "bpm": 85,
+        "name": "sixteenths"
+      }
+    ]
+  },
+  {
+    "date": "2020-09-19",
+    "exercises": [
+      {
+        "bpm": 165,
+        "name": "singles"
+      },
+      {
+        "bpm": 65,
+        "name": "triplets"
+      },
+      {
+        "bpm": 85,
+        "name": "sixteenths"
+      }
+    ]
+  },
+  {
+    "date": "2020-09-18",
+    "exercises": [
+      {
+        "bpm": 165,
+        "name": "singles"
+      },
+      {
+        "bpm": 65,
+        "name": "triplets"
+      },
+      {
+        "bpm": 85,
+        "name": "sixteenths"
+      }
+    ]
+  },
+  {
+    "date": "2020-09-17",
+    "exercises": [
+      {
+        "bpm": 160,
+        "name": "singles"
+      },
+      {
+        "bpm": 65,
+        "name": "triplets"
+      },
+      {
+        "bpm": 85,
+        "name": "sixteenths"
+      },
+      {
+        "bpm": 165,
+        "name": "singles"
+      },
+      {
+        "bpm": 65,
+        "name": "triplets"
+      },
+      {
+        "bpm": 85,
+        "name": "sixteenths"
+      }
+    ]
+  },
+  {
+    "date": "2020-09-16",
+    "exercises": [
+      {
+        "bpm": 160,
+        "name": "singles"
+      },
+      {
+        "bpm": 65,
+        "name": "triplets"
+      },
+      {
+        "bpm": 85,
+        "name": "sixteenths"
+      }
+    ]
+  },
+  {
+    "date": "2020-09-15",
+    "exercises": [
+      {
+        "bpm": 160,
+        "name": "singles"
+      },
+      {
+        "bpm": 65,
+        "name": "triplets"
+      },
+      {
+        "bpm": 80,
+        "name": "sixteenths"
+      }
+    ]
+  },
+  {
+    "date": "2020-09-14",
+    "exercises": [
+      {
+        "bpm": 160,
+        "name": "singles"
+      },
+      {
+        "bpm": 60,
+        "name": "triplets"
+      },
+      {
+        "bpm": 75,
+        "name": "sixteenths"
+      }
+    ]
+  },
+  {
+    "date": "2020-09-13",
+    "exercises": [
+      {
+        "bpm": 160,
+        "name": "singles"
+      },
+      {
+        "bpm": 60,
+        "name": "triplets"
+      },
+      {
+        "bpm": 80,
+        "name": "sixteenths"
+      }
+    ]
+  },
+  {
+    "date": "2020-09-12",
+    "exercises": [
+      {
+        "bpm": 160,
+        "name": "singles"
+      },
+      {
+        "bpm": 55,
+        "name": "triplets"
+      },
+      {
+        "bpm": 80,
+        "name": "sixteenths"
+      }
     ]
   }
 ]
