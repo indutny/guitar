@@ -68,15 +68,15 @@
       },
       {
         "bpm": 75,
-        "name": "phryg rhythm up and down"
+        "name": "phrygian rhythm up and down"
       },
       {
         "bpm": 75,
-        "name": "phryg rhythm shifting"
+        "name": "phrygian rhythm shifting"
       },
       {
         "bpm": 75,
-        "name": "phryg tap + thrill"
+        "name": "phrygian tap + thrill"
       },
       {
         "bpm": 45,
@@ -172,15 +172,15 @@
       },
       {
         "bpm": 75,
-        "name": "phryg rhythm up and down"
+        "name": "phrygian rhythm up and down"
       },
       {
         "bpm": 75,
-        "name": "phryg rhythm shifting"
+        "name": "phrygian rhythm shifting"
       },
       {
         "bpm": 75,
-        "name": "phryg tap"
+        "name": "phrygian tap"
       },
       {
         "bpm": 45,
@@ -188,7 +188,7 @@
       },
       {
         "bpm": 65,
-        "name": "phryg rhythm thrill"
+        "name": "phrygian rhythm thrill"
       },
       {
         "bpm": 75,
@@ -269,15 +269,15 @@
       },
       {
         "bpm": 75,
-        "name": "phryg rhythm up and down"
+        "name": "phrygian rhythm up and down"
       },
       {
         "bpm": 75,
-        "name": "phryg rhythm shifting"
+        "name": "phrygian rhythm shifting"
       },
       {
         "bpm": 75,
-        "name": "phryg tap"
+        "name": "phrygian tap"
       },
       {
         "bpm": 45,
@@ -285,7 +285,7 @@
       },
       {
         "bpm": 65,
-        "name": "phryg rhythm thrill"
+        "name": "phrygian rhythm thrill"
       },
       {
         "bpm": 65,
@@ -366,15 +366,15 @@
       },
       {
         "bpm": 75,
-        "name": "phryg rhythm up and down"
+        "name": "phrygian rhythm up and down"
       },
       {
         "bpm": 75,
-        "name": "phryg rhythm shifting"
+        "name": "phrygian rhythm shifting"
       },
       {
         "bpm": 75,
-        "name": "phryg tap"
+        "name": "phrygian tap"
       },
       {
         "bpm": 45,
@@ -382,7 +382,7 @@
       },
       {
         "bpm": 65,
-        "name": "phryg rhythm thrill"
+        "name": "phrygian rhythm thrill"
       },
       {
         "bpm": 65,
@@ -463,15 +463,15 @@
       },
       {
         "bpm": 70,
-        "name": "phryg rhythm up and down"
+        "name": "phrygian rhythm up and down"
       },
       {
         "bpm": 70,
-        "name": "phryg rhythm shifting"
+        "name": "phrygian rhythm shifting"
       },
       {
         "bpm": 65,
-        "name": "phryg tap"
+        "name": "phrygian tap"
       },
       {
         "bpm": 40,
@@ -479,7 +479,7 @@
       },
       {
         "bpm": 65,
-        "name": "phryg rhythm thrill"
+        "name": "phrygian rhythm thrill"
       },
       {
         "bpm": 65,
@@ -552,23 +552,23 @@
       },
       {
         "bpm": 60,
-        "name": "crossing multiple #6"
+        "name": "economy up"
       },
       {
         "bpm": 60,
-        "name": "crossing multiple #7"
+        "name": "economy down"
       },
       {
         "bpm": 70,
-        "name": "phryg rhythm up and down"
+        "name": "phrygian rhythm up and down"
       },
       {
         "bpm": 70,
-        "name": "phryg rhythm shifting"
+        "name": "phrygian rhythm shifting"
       },
       {
         "bpm": 65,
-        "name": "phryg tap"
+        "name": "phrygian tap"
       },
       {
         "bpm": 40,
@@ -576,7 +576,7 @@
       },
       {
         "bpm": 65,
-        "name": "phryg rhythm thrill"
+        "name": "phrygian rhythm thrill"
       },
       {
         "bpm": 65,
@@ -649,23 +649,23 @@
       },
       {
         "bpm": 60,
-        "name": "crossing multiple #6"
+        "name": "economy up"
       },
       {
         "bpm": 60,
-        "name": "crossing multiple #7"
+        "name": "economy down"
       },
       {
         "bpm": 65,
-        "name": "phryg rhythm up and down"
+        "name": "phrygian rhythm up and down"
       },
       {
         "bpm": 65,
-        "name": "phryg rhythm shifting"
+        "name": "phrygian rhythm shifting"
       },
       {
         "bpm": 65,
-        "name": "phryg tap"
+        "name": "phrygian tap"
       },
       {
         "bpm": 40,
@@ -673,7 +673,7 @@
       },
       {
         "bpm": 65,
-        "name": "phryg rhythm thrill"
+        "name": "phrygian rhythm thrill"
       },
       {
         "bpm": 65,
@@ -746,27 +746,27 @@
       },
       {
         "bpm": 60,
-        "name": "crossing multiple #6"
+        "name": "economy up"
       },
       {
         "bpm": 60,
-        "name": "crossing multiple #7"
+        "name": "economy down"
       },
       {
         "bpm": 65,
-        "name": "phryg rhythm up"
+        "name": "phrygian rhythm up"
       },
       {
         "bpm": 65,
-        "name": "phryg rhythm down"
+        "name": "phrygian rhythm down"
       },
       {
         "bpm": 65,
-        "name": "phryg rhythm shifting"
+        "name": "phrygian rhythm shifting"
       },
       {
         "bpm": 40,
-        "name": "phryg tap"
+        "name": "phrygian tap"
       },
       {
         "bpm": 40,
@@ -774,7 +774,7 @@
       },
       {
         "bpm": 65,
-        "name": "phryg rhythm thrill"
+        "name": "phrygian rhythm thrill"
       },
       {
         "bpm": 65,
@@ -847,19 +847,19 @@
       },
       {
         "bpm": 55,
-        "name": "crossing multiple #6"
+        "name": "economy up"
       },
       {
         "bpm": 55,
-        "name": "crossing multiple #7"
+        "name": "economy down"
       },
       {
         "bpm": 65,
-        "name": "rhythm #1"
+        "name": "phrygian rhythm up"
       },
       {
         "bpm": 65,
-        "name": "rhythm #2"
+        "name": "phrygian rhythm down"
       }
     ]
   },
@@ -924,19 +924,19 @@
       },
       {
         "bpm": 45,
-        "name": "crossing multiple #6"
+        "name": "economy up"
       },
       {
         "bpm": 45,
-        "name": "crossing multiple #7"
+        "name": "economy down"
       },
       {
         "bpm": 65,
-        "name": "rhythm #1"
+        "name": "phrygian rhythm up"
       },
       {
         "bpm": 65,
-        "name": "rhythm #2"
+        "name": "phrygian rhythm down"
       }
     ]
   },
@@ -1001,19 +1001,19 @@
       },
       {
         "bpm": 45,
-        "name": "crossing multiple #6"
+        "name": "economy up"
       },
       {
         "bpm": 45,
-        "name": "crossing multiple #7"
+        "name": "economy down"
       },
       {
         "bpm": 65,
-        "name": "rhythm #1"
+        "name": "phrygian rhythm up"
       },
       {
         "bpm": 65,
-        "name": "rhythm #2"
+        "name": "phrygian rhythm down"
       }
     ]
   },
@@ -1078,19 +1078,19 @@
       },
       {
         "bpm": 45,
-        "name": "crossing multiple #6"
+        "name": "economy up"
       },
       {
         "bpm": 45,
-        "name": "crossing multiple #7"
+        "name": "economy down"
       },
       {
         "bpm": 65,
-        "name": "rhythm #1"
+        "name": "phrygian rhythm up"
       },
       {
         "bpm": 65,
-        "name": "rhythm #2"
+        "name": "phrygian rhythm down"
       }
     ]
   },
@@ -1163,15 +1163,15 @@
       },
       {
         "bpm": 45,
-        "name": "crossing multiple #6"
+        "name": "economy up"
       },
       {
         "bpm": 45,
-        "name": "crossing multiple #7"
+        "name": "economy down"
       },
       {
         "bpm": 65,
-        "name": "rhythm #1"
+        "name": "phrygian rhythm up"
       }
     ]
   },
@@ -1244,11 +1244,11 @@
       },
       {
         "bpm": 55,
-        "name": "crossing multiple #6"
+        "name": "economy up"
       },
       {
         "bpm": 55,
-        "name": "crossing multiple #7"
+        "name": "economy down"
       }
     ]
   },
@@ -1321,11 +1321,11 @@
       },
       {
         "bpm": 55,
-        "name": "crossing multiple #6"
+        "name": "economy up"
       },
       {
         "bpm": 55,
-        "name": "crossing multiple #7"
+        "name": "economy down"
       }
     ]
   },
@@ -1774,18 +1774,6 @@
     "exercises": [
       {
         "bpm": 160,
-        "name": "singles"
-      },
-      {
-        "bpm": 65,
-        "name": "triplets"
-      },
-      {
-        "bpm": 85,
-        "name": "sixteenths"
-      },
-      {
-        "bpm": 165,
         "name": "singles"
       },
       {
