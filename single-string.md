@@ -476,22 +476,21 @@
 - [x] 83 - triplets (1, 3, 5, 7) (stabilizing...)
 - [x] 105 - sixteenths (2, 4, 6)
 - [x] 80 - crossing #1 (2-3,4-5,6-7)
-- [ ] 80 - crossing #2 (1-2,3-4,5-6)
-- [ ] 80 - crossing #3 (2-3,4-5,6-7)
-- [ ] 70 - skipping #1 (2-4,4-6)
-- [ ] 70 - skipping #2 (1-3,3-5,5-7)
-- [ ] 70 - skipping #3 (2-4,4-6)
-- [ ] 75 - crossing multiple #1 & 2
-- [ ] 75 - crossing multiple #3 & 4
-- [ ] 75 - crossing multiple #5
-- [ ] 65 - economy multiple #6
-- [ ] 65 - economy multiple #7
-- [ ] 75 - phryg rhythm #1 + 2
-- [ ] 75 - phryg rhythm #3
-- [ ] 75 - phryg tap
-- [ ] 45 - phryg sweep
-- [ ] 75 - phryg duplets
-- [ ] 80 - 2 sweep
-- [ ] 110 (but triplets) - 3 sweep
-- 3 -> 60
-- 3 -> 90 as eights
+- [x] 80 - crossing #2 (1-2,3-4,5-6)
+- [x] 80 - crossing #3 (2-3,4-5,6-7)
+- [x] 70 - skipping #1 (2-4,4-6)
+- [x] 70 - skipping #2 (1-3,3-5,5-7)
+- [x] 70 - skipping #3 (2-4,4-6)
+- [x] 75 - crossing multiple #1 & 2
+- [x] 75 - crossing multiple #3 & 4
+- [x] 75 - crossing multiple #5
+- [x] 65 - economy multiple #6
+- [x] 65 - economy multiple #7
+- [x] 75 - phryg rhythm #1 + 2
+- [x] 75 - phryg rhythm #3
+- [x] 75 - phryg tap + thrill
+- [x] 45 - phryg sweep
+- [x] 80 - 2 sweep
+- [x] 110 (but triplets) - 3 sweep
+- [x] 60 (but triplets) - sweep arpeggio
+- [x] 90 (but eights) - 4 sweep
