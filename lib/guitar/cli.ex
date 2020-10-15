@@ -10,7 +10,7 @@ defmodule Guitar.CLI do
       _ -> "log.json"
     end
 
-    today = if today_opt = Keyword.get(options, :today) do
+    today = if today_opt = options[:today] do
       case Date.from_iso8601(today_opt) do
         {:ok, d} -> d
       end
@@ -20,6 +20,18 @@ defmodule Guitar.CLI do
 
     {command_fn, command_opts} = case List.first(args) do
       "play" -> {&Guitar.Command.Play.run/3, [strict: []]}
+      "add" -> {
+        &Guitar.Command.Add.run/3,
+        [
+          strict: [
+            name: :string,
+            bpm: :integer,
+            slowdown: :integer,
+            notes: :string,
+            strings: :string
+          ]
+        ]
+      }
       _ -> {
         &Guitar.Command.List.run/3,
         [
@@ -37,6 +49,11 @@ defmodule Guitar.CLI do
     receive do
       {:list, entries} ->
         command_fn.(entries, [ {:today, today} | options], storage)
+    end
+
+    send(storage, {:close, self()})
+    receive do
+      :closed -> nil
     end
   end
 end

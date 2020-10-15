@@ -27,6 +27,7 @@ defmodule Guitar.Storage do
         end)
         save(filename, updated_map)
         loop(filename, updated_map)
+      {:close, pid} -> send(pid, :closed)
     end
   end
 
