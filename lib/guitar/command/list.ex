@@ -2,7 +2,7 @@ defmodule Guitar.Command.List do
   @behaviour Guitar.Command
 
   @impl Guitar.Command
-  def run(entries, options) do
+  def run(entries, options, _storage) do
     last_entries = if Keyword.get(options, :full, false) do
       entries
     else
@@ -10,9 +10,13 @@ defmodule Guitar.Command.List do
       entries |> Enum.take(count)
     end
 
-    last_entries
+    string_entries = last_entries
     |> Enum.map(&to_string/1)
     |> Enum.join("\n")
-    |> IO.puts
+    IO.puts """
+    # Guitar Practice
+
+    #{string_entries}
+    """
   end
 end
