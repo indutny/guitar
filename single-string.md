@@ -379,21 +379,119 @@
 - [x] 165 - single note
 - [x] 79 - triplets (1, 3, 5, 7)
 - [x] 102 - sixteenths (2, 4, 6)
-- [x] 75 - crossing #1 (2-3,4-5,6-7)
-- [ ] 75 - crossing #2 (1-2,3-4,5-6)
-- [ ] 75 - crossing #3 (2-3,4-5,6-7)
-- [ ] 65 - skipping #1 (2-4,4-6)
-- [ ] 65 - skipping #2 (1-3,3-5,5-7)
-- [ ] 65 - skipping #3 (2-4,4-6)
-- [ ] 70 - crossing multiple #1 & 2 (bump speed next time)
-- [ ] 70 - crossing multiple #3 & 4
-- [ ] 70 - crossing multiple #5
-- [ ] 60 - crossing multiple #6
-- [ ] 60 - crossing multiple #7
-- [ ] 70 - phryg rhythm #1 + 2
-- [ ] 70 - phryg rhythm #3
-- [ ] 65 - phryg tap
-- [ ] 40 - phryg sweep
-- [ ] 65 - phryg duplets
-- [ ] 65 - 2 sweep
-- [ ] 50 - 3 sweep
+- [x] 75 - crossing #1 (2-3,4-5,6-7) (bump speed next time)
+- [x] 75 - crossing #2 (1-2,3-4,5-6)
+- [x] 75 - crossing #3 (2-3,4-5,6-7)
+- [x] 70 - skipping #1 (2-4,4-6)
+- [x] 70 - skipping #2 (1-3,3-5,5-7)
+- [x] 70 - skipping #3 (2-4,4-6)
+- [x] 75 - crossing multiple #1 & 2
+- [x] 75 - crossing multiple #3 & 4
+- [x] 75 - crossing multiple #5
+- [x] 60 - economy multiple #6
+- [x] 60 - economy multiple #7
+- [x] 70 - phryg rhythm #1 + 2
+- [x] 70 - phryg rhythm #3
+- [x] 65 - phryg tap
+- [x] 40 - phryg sweep
+- [x] 65 - phryg duplets
+- [x] 65 - 2 sweep
+- [x] 50 - 3 sweep
+
+# 10/11/20
+
+- [x] 165 - single note
+- [x] 80 - triplets (2, 4, 6)
+- [x] 103 - sixteenths (1, 3, 5, 7)
+- [x] 80 - crossing #1 (1-2,3-4,5-6)
+- [x] 80 - crossing #2 (2-3,4-5,6-7)
+- [x] 80 - crossing #3 (1-2,3-4,5-6)
+- [x] 70 - skipping #1 (1-3,3-5,5-7)
+- [x] 70 - skipping #2 (2-4,4-6)
+- [x] 70 - skipping #3 (1-3,3-5,5-7)
+- [x] 75 - crossing multiple #1 & 2
+- [x] 75 - crossing multiple #3 & 4
+- [x] 75 - crossing multiple #5
+- [x] 65 - economy multiple #6
+- [x] 65 - economy multiple #7
+- [x] 75 - phryg rhythm #1 + 2
+- [x] 75 - phryg rhythm #3
+- [x] 75 - phryg tap
+- [x] 45 - phryg sweep
+- [x] 65 - phryg duplets
+- [x] 65 - 2 sweep
+- [x] 50 - 3 sweep
+
+# 10/12/20
+
+- [x] 166 - single note
+- [x] 83 - triplets (1, 3, 5, 7) (get it stable)
+- [x] 105 - sixteenths (2, 4, 6)
+- [x] 80 - crossing #1 (2-3,4-5,6-7)
+- [x] 80 - crossing #2 (1-2,3-4,5-6)
+- [x] 80 - crossing #3 (2-3,4-5,6-7)
+- [x] 70 - skipping #1 (2-4,4-6)
+- [x] 70 - skipping #2 (1-3,3-5,5-7)
+- [x] 70 - skipping #3 (2-4,4-6)
+- [x] 75 - crossing multiple #1 & 2
+- [x] 75 - crossing multiple #3 & 4
+- [x] 75 - crossing multiple #5
+- [x] 65 - economy multiple #6
+- [x] 65 - economy multiple #7
+- [x] 75 - phryg rhythm #1 + 2
+- [x] 75 - phryg rhythm #3
+- [x] 75 - phryg tap
+- [x] 45 - phryg sweep
+- [x] 65 - phryg duplets
+- [x] 65 - 2 sweep
+- [x] 50 - 3 sweep
+
+# 10/13/20
+
+- [x] 166 - single note
+- [x] 83 - triplets (2, 4, 6) (stabilizing...)
+- [x] 105 - sixteenths (1, 3, 5, 7)
+- [x] 80 - crossing #1 (1-2,3-4,5-6)
+- [x] 80 - crossing #2 (2-3,4-5,6-7)
+- [x] 80 - crossing #3 (1-2,3-4,5-6)
+- [x] 70 - skipping #1 (1-3,3-5,5-7)
+- [x] 70 - skipping #2 (2-4,4-6)
+- [x] 70 - skipping #3 (1-3,3-5,5-7)
+- [x] 75 - crossing multiple #1 & 2
+- [x] 75 - crossing multiple #3 & 4
+- [x] 75 - crossing multiple #5
+- [x] 65 - economy multiple #6
+- [x] 65 - economy multiple #7
+- [x] 75 - phryg rhythm #1 + 2
+- [x] 75 - phryg rhythm #3
+- [x] 75 - phryg tap
+- [x] 45 - phryg sweep
+- [x] 65 - phryg duplets
+- [x] 75 - 2 sweep
+- [x] 50 - 3 sweep
+
+# 10/14/20
+
+- [x] 166 - single note
+- [x] 83 - triplets (1, 3, 5, 7) (stabilizing...)
+- [x] 105 - sixteenths (2, 4, 6)
+- [x] 80 - crossing #1 (2-3,4-5,6-7)
+- [ ] 80 - crossing #2 (1-2,3-4,5-6)
+- [ ] 80 - crossing #3 (2-3,4-5,6-7)
+- [ ] 70 - skipping #1 (2-4,4-6)
+- [ ] 70 - skipping #2 (1-3,3-5,5-7)
+- [ ] 70 - skipping #3 (2-4,4-6)
+- [ ] 75 - crossing multiple #1 & 2
+- [ ] 75 - crossing multiple #3 & 4
+- [ ] 75 - crossing multiple #5
+- [ ] 65 - economy multiple #6
+- [ ] 65 - economy multiple #7
+- [ ] 75 - phryg rhythm #1 + 2
+- [ ] 75 - phryg rhythm #3
+- [ ] 75 - phryg tap
+- [ ] 45 - phryg sweep
+- [ ] 75 - phryg duplets
+- [ ] 80 - 2 sweep
+- [ ] 110 (but triplets) - 3 sweep
+- 3 -> 60
+- 3 -> 90 as eights
