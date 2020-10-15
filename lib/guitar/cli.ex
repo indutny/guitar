@@ -24,11 +24,8 @@ defmodule Guitar.CLI do
   def add(_contents, []) do
   end
 
-  def list(contents, []) do
-    list(contents, [ full: false ])
-  end
-
-  def list(contents, [ full: is_full ]) do
+  def list(contents, options) do
+    is_full = Keyword.get(options, :full, false)
     out = if is_full do
       contents |> Enum.map(&to_string/1) |> Enum.join("\n")
     else
