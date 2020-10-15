@@ -1,6 +1,6 @@
 defmodule Guitar.CLI do
-  def main(argv \\ System.argv()) do
-    { options, args, _invalid } = OptionParser.parse_head(argv, strict: [
+  def main(args \\ System.argv()) do
+    { options, args, [] } = OptionParser.parse_head(args, strict: [
       file: :string
     ], aliases: [ f: :file ])
 
@@ -9,25 +9,31 @@ defmodule Guitar.CLI do
       _ -> "log.json"
     end
 
-    command_fn = case args do
-      _ -> &list/2
+    { command_fn, command_opts } = case List.first(args) do
+      "add" -> { &add/2, [] }
+      _ -> { &list/2, [ full: :boolean ] }
     end
+
+    { options, [], [] } = OptionParser.parse(tl(args), strict: command_opts)
 
     File.read!(file) |> Jason.decode!() |> Enum.map(fn entry ->
       Guitar.Log.Entry.from_json(entry)
-    end) |> command_fn.(args)
+    end) |> command_fn.(options)
   end
 
-  def list(contents, argv) do
-    { options, _args, _invalid } = OptionParser.parse_head(argv, strict: [
-      full: :boolean
-    ])
+  def add(_contents, []) do
+  end
 
-    is_full = case options do
-      [ full: true ] -> true
-      _ -> false
+  def list(contents, []) do
+    list(contents, [ full: false ])
+  end
+
+  def list(contents, [ full: is_full ]) do
+    out = if is_full do
+      contents |> Enum.map(&to_string/1) |> Enum.join("\n")
+    else
+      contents |> List.last |> to_string()
     end
-
-    contents |> Enum.map(&to_string/1) |> Enum.join("\n") |> IO.puts
+    IO.puts out
   end
 end
