@@ -39,8 +39,9 @@ defmodule Guitar.CLI do
         $ guitar add --name <str> --bpm <num> [--slowdown <num>] \
             [--notes <str>] [--strings <even|odd>]
 
-        For any command [--today <yyyy-mm-dd>] can be used to interact with
-        past entries.
+        For any command:
+        [--today <yyyy-mm-dd>] can be used to interact with past entries.
+        [--file <log.json>] can be used to override default log location.
       """)
       exit(:normal)
     end
