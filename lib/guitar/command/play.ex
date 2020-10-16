@@ -38,6 +38,10 @@ defmodule Guitar.Command.Play do
           send(storage, {:append, today, completed})
       end
     end)
+
+    [A.green(), "All done, good job!", A.reset()]
+    |> A.format()
+    |> IO.puts()
   end
 
   def prompt(ex) do
@@ -60,7 +64,7 @@ defmodule Guitar.Command.Play do
         A.reset(),
         "), or ",
         A.cyan(),
-        "bpm [notes]:",
+        "bpm [notes]: ",
         A.reset()
       ]
       |> A.format()

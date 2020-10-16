@@ -1,5 +1,109 @@
 [
   {
+    "date": "2020-10-15",
+    "exercises": [
+      {
+        "bpm": 166,
+        "name": "singles"
+      },
+      {
+        "bpm": 83,
+        "name": "triplets",
+        "strings": "even"
+      },
+      {
+        "bpm": 105,
+        "name": "sixteenths",
+        "strings": "odd"
+      },
+      {
+        "bpm": 80,
+        "name": "crossing 1-3",
+        "strings": "odd"
+      },
+      {
+        "bpm": 80,
+        "name": "crossing 3-1",
+        "strings": "even"
+      },
+      {
+        "bpm": 80,
+        "name": "crossing 3-3",
+        "strings": "odd"
+      },
+      {
+        "bpm": 70,
+        "name": "skipping 1-3",
+        "strings": "odd"
+      },
+      {
+        "bpm": 70,
+        "name": "skipping 3-1",
+        "strings": "even"
+      },
+      {
+        "bpm": 70,
+        "name": "skipping 3-3",
+        "strings": "odd"
+      },
+      {
+        "bpm": 75,
+        "name": "minor up and down"
+      },
+      {
+        "bpm": 75,
+        "name": "phrygian up and down"
+      },
+      {
+        "bpm": 75,
+        "name": "phrygian shifting"
+      },
+      {
+        "bpm": 65,
+        "name": "economy up"
+      },
+      {
+        "bpm": 65,
+        "name": "economy down"
+      },
+      {
+        "bpm": 75,
+        "name": "phrygian rhythm up and down"
+      },
+      {
+        "bpm": 75,
+        "name": "phrygian rhythm shifting"
+      },
+      {
+        "bpm": 75,
+        "name": "phrygian tap + thrill"
+      },
+      {
+        "bpm": 45,
+        "name": "sweep up"
+      },
+      {
+        "bpm": 80,
+        "name": "sweep 2"
+      },
+      {
+        "bpm": 110,
+        "name": "sweep 3",
+        "slowdown": 2
+      },
+      {
+        "bpm": 60,
+        "name": "sweep arpeggio",
+        "slowdown": 2
+      },
+      {
+        "bpm": 90,
+        "name": "4 sweep",
+        "slowdown": 2
+      }
+    ]
+  },
+  {
     "date": "2020-10-14",
     "exercises": [
       {
@@ -88,18 +192,18 @@
       },
       {
         "bpm": 110,
-        "slowdown": 2,
-        "name": "sweep 3"
+        "name": "sweep 3",
+        "slowdown": 2
       },
       {
         "bpm": 60,
-        "slowdown": 2,
-        "name": "sweep arpeggio"
+        "name": "sweep arpeggio",
+        "slowdown": 2
       },
       {
         "bpm": 90,
-        "slowdown": 2,
-        "name": "4 sweep"
+        "name": "4 sweep",
+        "slowdown": 2
       }
     ]
   },
