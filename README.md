@@ -12,14 +12,20 @@ mix escript.install
 ## Running
 
 ```sh
-# Repeat yesterday's routine
-guitar play
+$ guitar -h
+Usage:
 
-# Add new exercise
-guitar add --name "exercise name" --bpm 120
+  Display past logs:
+  $ guitar [list] [--full] [--count <num>]
 
-# Display history
-guitar list --count 2
+  Start daily routine:
+  $ guitar play
+
+  Add a new exercise to today's log:
+  $ guitar add --name <str> --bpm <num> [--slowdown <num>]       [--notes <str>] [--strings <even|odd>]
+
+  For any command [--today <yyyy-mm-dd>] can be used to interact with
+  past entries.
 ```
 
 #### LICENSE
