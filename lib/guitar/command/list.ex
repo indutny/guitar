@@ -2,7 +2,9 @@ defmodule Guitar.Command.List do
   @behaviour Guitar.Command
 
   @impl Guitar.Command
-  def run(entries, options, _storage) do
+  def run(storage, options) do
+    entries = Guitar.Storage.list(storage)
+
     last_entries =
       if Keyword.get(options, :full, false) do
         entries

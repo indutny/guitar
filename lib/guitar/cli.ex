@@ -43,14 +43,15 @@ defmodule Guitar.CLI do
         [--today <yyyy-mm-dd>] can be used to interact with past entries.
         [--file <log.json>] can be used to override default log location.
       """)
+
       exit(:normal)
     end
 
     command_fn =
       case List.first(args) do
-        "play" -> &Guitar.Command.Play.run/3
-        "add" -> &Guitar.Command.Add.run/3
-        _ -> &Guitar.Command.List.run/3
+        "play" -> &Guitar.Command.Play.run/2
+        "add" -> &Guitar.Command.Add.run/2
+        _ -> &Guitar.Command.List.run/2
       end
 
     today =
@@ -62,19 +63,10 @@ defmodule Guitar.CLI do
         NaiveDateTime.local_now() |> NaiveDateTime.to_date()
       end
 
-    {:ok, storage} = Task.start_link(Guitar.Storage, :start, [options[:file] || "log.json"])
+    {:ok, storage} = Guitar.Storage.start_link(options[:file] || "log.json")
 
-    send(storage, {:list, self()})
+    command_fn.(storage, [{:today, today} | options])
 
-    receive do
-      {:list, entries} ->
-        command_fn.(entries, [{:today, today} | options], storage)
-    end
-
-    send(storage, {:close, self()})
-
-    receive do
-      :closed -> nil
-    end
+    Guitar.Storage.stop(storage)
   end
 end

@@ -4,7 +4,9 @@ defmodule Guitar.Command.Play do
   @behaviour Guitar.Command
 
   @impl Guitar.Command
-  def run(entries, [today: today], storage) do
+  def run(storage, today: today) do
+    entries = Guitar.Storage.list(storage)
+
     current =
       Enum.find(entries, &(&1.date == today)) ||
         %Guitar.Log.Entry{date: today}
@@ -49,7 +51,7 @@ defmodule Guitar.Command.Play do
           nil
 
         completed ->
-          send(storage, {:append, today, completed})
+          Guitar.Storage.append(storage, today, completed)
       end
     end)
 

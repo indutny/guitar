@@ -2,7 +2,7 @@ defmodule Guitar.Command.Add do
   @behaviour Guitar.Command
 
   @impl Guitar.Command
-  def run(entries, options, storage) do
+  def run(storage, options) do
     today = options[:today]
     name = options[:name]
     bpm = options[:bpm]
@@ -24,6 +24,8 @@ defmodule Guitar.Command.Add do
       raise ArgumentError, message: "--bpm is a required option"
     end
 
+    entries = Guitar.Storage.list(storage)
+
     current =
       Enum.find(entries, &(&1.date == today)) ||
         %Guitar.Log.Entry{date: today}
@@ -43,6 +45,6 @@ defmodule Guitar.Command.Add do
       strings: strings
     }
 
-    send(storage, {:append, today, new_exercise})
+    Guitar.Storage.append(storage, today, new_exercise)
   end
 end

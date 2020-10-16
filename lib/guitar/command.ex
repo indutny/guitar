@@ -1,7 +1,7 @@
 defmodule Guitar.Command do
   @type options :: [{atom(), term}]
   @type entries :: [Guitar.Log.Entry]
-  @type storage :: pid()
+  @type storage :: Guitar.Storage.t()
 
-  @callback run(entries(), options(), storage()) :: entries() | nil
+  @callback run(storage(), options()) :: entries() | nil
 end

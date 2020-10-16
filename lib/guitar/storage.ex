@@ -1,6 +1,34 @@
 defmodule Guitar.Storage do
-  @spec start(String.t()) :: nil
-  def start(filename) do
+  use GenServer
+
+  @type t :: GenServer.server()
+
+  # Client
+
+  @spec start_link(String.t()) :: GenServer.on_start()
+  def start_link(filename) do
+    GenServer.start_link(__MODULE__, filename)
+  end
+
+  @spec stop(t()) :: :ok
+  def stop(pid) do
+    GenServer.stop(pid)
+  end
+
+  @spec list(t()) :: [Guitar.Log.Entry]
+  def list(pid) do
+    GenServer.call(pid, :list)
+  end
+
+  @spec append(t(), Calendar.date(), Guitar.Log.Exercise) :: :ok
+  def append(pid, date, exercise) do
+    GenServer.cast(pid, {:append, date, exercise})
+  end
+
+  # Server
+
+  @impl true
+  def init(filename) do
     map =
       File.read!(filename)
       |> Jason.decode!()
@@ -8,41 +36,39 @@ defmodule Guitar.Storage do
       |> Enum.map(&{&1.date, &1})
       |> Map.new()
 
-    loop(filename, map)
+    {:ok, {filename, map}}
   end
 
-  def loop(filename, map) do
-    receive do
-      {:list, pid} ->
-        send(pid, {:list, Map.values(map) |> Enum.sort(Guitar.Log.Entry)})
-        loop(filename, map)
-
-      {:append, date, exercise} ->
-        updated_map =
-          Map.update(
-            map,
-            date,
-            %Guitar.Log.Entry{
-              date: date,
-              exercises: [exercise]
-            },
-            fn existing ->
-              %Guitar.Log.Entry{
-                existing
-                | exercises: existing.exercises ++ [exercise]
-              }
-            end
-          )
-
-        save(filename, updated_map)
-        loop(filename, updated_map)
-
-      {:close, pid} ->
-        send(pid, :closed)
-    end
+  @impl true
+  def handle_call(:list, _, {_filename, map} = state) do
+    {:reply, Map.values(map) |> Enum.sort(Guitar.Log.Entry), state}
   end
 
-  def save(filename, map) do
+  @impl true
+  def handle_cast({:append, date, exercise}, {filename, map}) do
+    updated_map =
+      Map.update(
+        map,
+        date,
+        %Guitar.Log.Entry{
+          date: date,
+          exercises: [exercise]
+        },
+        fn existing ->
+          %Guitar.Log.Entry{
+            existing
+            | exercises: existing.exercises ++ [exercise]
+          }
+        end
+      )
+
+    save(filename, updated_map)
+    {:noreply, {filename, updated_map}}
+  end
+
+  # Internal
+
+  defp save(filename, map) do
     list =
       map
       |> Map.values()
