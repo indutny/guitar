@@ -36,7 +36,7 @@ defmodule Guitar.CLI do
         $ guitar play
 
         Add a new exercise to today's log:
-        $ guitar add --name <str> --bpm <num> [--slowdown <num>] \
+        $ guitar add --name <str> --bpm <num> [--slowdown <num>] \\
             [--notes <str>] [--strings <even|odd>]
 
         For any command:

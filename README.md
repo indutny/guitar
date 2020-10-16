@@ -21,7 +21,8 @@ Usage:
   $ guitar play
 
   Add a new exercise to today's log:
-  $ guitar add --name <str> --bpm <num> [--slowdown <num>]       [--notes <str>] [--strings <even|odd>]
+  $ guitar add --name <str> --bpm <num> [--slowdown <num>] \
+    [--notes <str>] [--strings <even|odd>]
 
   For any command:
   [--today <yyyy-mm-dd>] can be used to interact with past entries.
