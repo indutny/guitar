@@ -5,6 +5,7 @@ defmodule Guitar.CLI do
         strict: [
           # common
           today: :string,
+          help: :boolean,
 
           # list
           full: :boolean,
@@ -18,10 +19,31 @@ defmodule Guitar.CLI do
           strings: :string
         ],
         aliases: [
+          h: :help,
           f: :full,
           c: :count
         ]
       )
+
+    if options[:help] do
+      IO.puts("""
+      Usage:
+
+        Display past logs:
+        $ guitar [list] [--full] [--count <num>]
+
+        Start daily routine:
+        $ guitar play
+
+        Add a new exercise to today's log:
+        $ guitar add --name <str> --bpm <num> [--slowdown <num>] \
+            [--notes <str>] [--strings <even|odd>]
+
+        For any command [--today <yyyy-mm-dd>] can be used to interact with
+        past entries.
+      """)
+      exit(:normal)
+    end
 
     command_fn =
       case List.first(args) do
