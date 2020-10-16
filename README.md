@@ -12,7 +12,6 @@ mix escript.install
 ## Running
 
 ```sh
-$ guitar -h
 Usage:
 
   Display past logs:
@@ -24,8 +23,9 @@ Usage:
   Add a new exercise to today's log:
   $ guitar add --name <str> --bpm <num> [--slowdown <num>]       [--notes <str>] [--strings <even|odd>]
 
-  For any command [--today <yyyy-mm-dd>] can be used to interact with
-  past entries.
+  For any command:
+  [--today <yyyy-mm-dd>] can be used to interact with past entries.
+  [--file <log.json>] can be used to override default log location.
 ```
 
 #### LICENSE
