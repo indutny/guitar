@@ -9,10 +9,24 @@ defmodule Guitar.Command.Play do
       Enum.find(entries, &(&1.date == today)) ||
         %Guitar.Log.Entry{date: today}
 
-    last =
-      Enum.find(entries, fn entry ->
+    past =
+      Enum.filter(entries, fn entry ->
         Date.compare(entry.date, today) === :lt
-      end) || %Guitar.Log.Entry{}
+      end)
+
+    last = List.first(past) || %Guitar.Log.Entry{}
+
+    past_tempo =
+      past
+      |> Enum.slice(1, 4)
+      |> Enum.map(fn entry ->
+        Enum.map(entry.exercises, fn ex ->
+          {ex.name, Guitar.Log.Exercise.bpm_to_string(ex)}
+        end)
+      end)
+      |> List.flatten()
+      |> Enum.group_by(&elem(&1, 0), &elem(&1, 1))
+      |> Map.new()
 
     # Find exercises that weren't played yet
     completed =
@@ -30,7 +44,7 @@ defmodule Guitar.Command.Play do
 
     scheduled
     |> Enum.map(fn ex ->
-      case prompt(ex) do
+      case prompt(ex, past_tempo[ex.name]) do
         nil ->
           nil
 
@@ -44,29 +58,21 @@ defmodule Guitar.Command.Play do
     |> IO.puts()
   end
 
-  def prompt(ex) do
-    [A.white(), to_string(ex), A.reset()]
+  def prompt(ex, past_tempo \\ []) do
+    past = [" (past: ", Enum.join(past_tempo, ", "), ")"]
+
+    [A.white(), to_string(ex), A.reset(), past]
     |> A.format()
     |> IO.puts()
 
+    complete = ["complete(", A.green(), "c", A.reset(), ")"]
+    skip = ["skip(", A.red(), "s", A.reset(), ")"]
+    bpm_or_notes = [A.cyan(), "bpm [notes]: ", A.reset()]
+
+    options = Enum.intersperse([complete, skip, bpm_or_notes], ", ")
+
     answer =
-      [
-        A.blue(),
-        "Choose one: ",
-        A.reset(),
-        "complete(",
-        A.green(),
-        "c",
-        A.reset(),
-        "), skip(",
-        A.red(),
-        "s",
-        A.reset(),
-        "), or ",
-        A.cyan(),
-        "bpm [notes]: ",
-        A.reset()
-      ]
+      [A.blue(), "Choose one: ", A.reset(), options]
       |> A.format()
       |> IO.gets()
       |> String.trim()

@@ -54,13 +54,22 @@ defmodule Guitar.Log.Exercise do
 
     %Guitar.Log.Exercise{e | strings: new_strings}
   end
+
+  @doc """
+  Returns bpm with optional slowdown
+  """
+  @spec bpm_to_string(exercise()) :: String.t()
+  def bpm_to_string(e) do
+    slowdown = e.slowdown && "/#{e.slowdown}"
+    "#{e.bpm}#{slowdown}"
+  end
 end
 
 defimpl String.Chars, for: Guitar.Log.Exercise do
   def to_string(t) do
+    bpm = Guitar.Log.Exercise.bpm_to_string(t)
     strings = if t.strings, do: ", #{t.strings} strings", else: ""
     notes = t.notes && ", _(#{t.notes})_"
-    slowdown = t.slowdown && "/#{t.slowdown}"
-    "- #{t.name}: #{t.bpm}#{slowdown} bpm#{strings}#{notes}"
+    "- #{t.name}: #{bpm} bpm#{strings}#{notes}"
   end
 end
