@@ -27,7 +27,7 @@ defmodule Guitar.Storage do
 
   # Server
 
-  @impl true
+  @impl GenServer
   def init(filename) do
     map =
       File.read!(filename)
@@ -39,12 +39,12 @@ defmodule Guitar.Storage do
     {:ok, {filename, map}}
   end
 
-  @impl true
+  @impl GenServer
   def handle_call(:list, _, {_filename, map} = state) do
     {:reply, Map.values(map) |> Enum.sort(Guitar.Log.Entry), state}
   end
 
-  @impl true
+  @impl GenServer
   def handle_cast({:append, date, exercise}, {filename, map}) do
     updated_map =
       Map.update(
