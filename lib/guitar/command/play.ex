@@ -1,4 +1,6 @@
 defmodule Guitar.Command.Play do
+  alias IO.ANSI, as: A
+
   @behaviour Guitar.Command
 
   @impl Guitar.Command
@@ -28,16 +30,41 @@ defmodule Guitar.Command.Play do
 
     scheduled
     |> Enum.map(fn ex ->
-      completed = prompt(ex)
-      send(storage, {:append, today, completed})
+      case prompt(ex) do
+        nil ->
+          nil
+
+        completed ->
+          send(storage, {:append, today, completed})
+      end
     end)
   end
 
   def prompt(ex) do
-    IO.puts(ex)
+    [A.white(), to_string(ex), A.reset()]
+    |> A.format()
+    |> IO.puts()
 
     answer =
-      IO.gets("Enter: complete(c), skip(s), or bpm [notes]: ")
+      [
+        A.blue(),
+        "Choose one: ",
+        A.reset(),
+        "complete(",
+        A.green(),
+        "c",
+        A.reset(),
+        "), skip(",
+        A.red(),
+        "s",
+        A.reset(),
+        "), or ",
+        A.cyan(),
+        "bpm [notes]:",
+        A.reset()
+      ]
+      |> A.format()
+      |> IO.gets()
       |> String.trim()
 
     answer =
@@ -54,7 +81,10 @@ defmodule Guitar.Command.Play do
         ex
 
       :skip ->
-        IO.puts("...skipped")
+        [A.red(), "...skipped", A.reset()]
+        |> A.format()
+        |> IO.puts()
+
         nil
 
       {:modify, input} ->
@@ -95,7 +125,10 @@ defmodule Guitar.Command.Play do
         notes: notes
     }
 
-    IO.puts(~s(Modified as "#{completed}"))
+    [A.green(), "Modified as: ", A.reset(), to_string(completed)]
+    |> A.format()
+    |> IO.puts()
+
     completed
   end
 end
