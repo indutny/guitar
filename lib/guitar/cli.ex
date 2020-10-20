@@ -56,16 +56,14 @@ defmodule Guitar.CLI do
 
     today =
       if today_opt = options[:today] do
-        case Date.from_iso8601(today_opt) do
-          {:ok, d} -> d
-        end
+        Date.from_iso8601!(today_opt)
       else
         NaiveDateTime.local_now() |> NaiveDateTime.to_date()
       end
 
     {:ok, storage} = Guitar.Storage.start_link(options[:file] || "log.json")
 
-    command_fn.(storage, [{:today, today} | options])
+    command_fn.(storage, Keyword.merge(options, [today: today]))
 
     Guitar.Storage.stop(storage)
   end

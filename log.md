@@ -1,5 +1,55 @@
 # Guitar Practice
 
+## 2020-10-19
+
+- singles: 167 bpm
+- triplets: 85 bpm, even strings
+- sixteenths: 105 bpm, odd strings
+- crossing 1-3: 85 bpm, odd strings
+- crossing 3-1: 85 bpm, even strings
+- crossing 3-3: 85 bpm, odd strings
+- skipping 1-3: 70 bpm, odd strings
+- skipping 3-1: 70 bpm, even strings
+- skipping 3-3: 70 bpm, odd strings
+- minor up and down: 75 bpm
+- phrygian up and down: 75 bpm
+- phrygian shifting: 75 bpm
+- economy up: 67 bpm
+- economy down: 60 bpm
+- phrygian rhythm up and down: 75 bpm
+- phrygian rhythm shifting: 75 bpm
+- phrygian tap + trill: 75 bpm
+- sweep up: 45 bpm
+- sweep 2: 84 bpm
+- sweep 3: 110/2 bpm
+- sweep arpeggio: 80/2 bpm
+- 4 sweep: 110/2 bpm
+
+## 2020-10-18
+
+- singles: 167 bpm
+- triplets: 85 bpm, odd strings
+- sixteenths: 105 bpm, even strings
+- crossing 1-3: 85 bpm, even strings
+- crossing 3-1: 85 bpm, odd strings
+- crossing 3-3: 85 bpm, even strings
+- skipping 1-3: 70 bpm, even strings
+- skipping 3-1: 70 bpm, odd strings
+- skipping 3-3: 70 bpm, even strings
+- minor up and down: 75 bpm
+- phrygian up and down: 75 bpm
+- phrygian shifting: 75 bpm
+- economy up: 67 bpm
+- economy down: 60 bpm
+- phrygian rhythm up and down: 75 bpm
+- phrygian rhythm shifting: 75 bpm
+- phrygian tap + trill: 75 bpm
+- sweep up: 45 bpm
+- sweep 2: 84 bpm
+- sweep 3: 110/2 bpm
+- sweep arpeggio: 60/2 bpm
+- 4 sweep: 90/2 bpm
+
 ## 2020-10-17
 
 - singles: 167 bpm
@@ -18,7 +68,7 @@
 - economy down: 65 bpm
 - phrygian rhythm up and down: 75 bpm
 - phrygian rhythm shifting: 75 bpm
-- phrygian tap + thrill: 75 bpm
+- phrygian tap + trill: 75 bpm
 - sweep up: 45 bpm
 - sweep 2: 82 bpm
 - sweep 3: 110/2 bpm
@@ -43,7 +93,7 @@
 - economy down: 67 bpm
 - phrygian rhythm up and down: 75 bpm
 - phrygian rhythm shifting: 75 bpm
-- phrygian tap + thrill: 75 bpm
+- phrygian tap + trill: 75 bpm
 - sweep up: 45 bpm
 - sweep 2: 82 bpm
 - sweep 3: 110/2 bpm
@@ -68,7 +118,7 @@
 - economy down: 65 bpm
 - phrygian rhythm up and down: 75 bpm
 - phrygian rhythm shifting: 75 bpm
-- phrygian tap + thrill: 75 bpm
+- phrygian tap + trill: 75 bpm
 - sweep up: 45 bpm
 - sweep 2: 80 bpm
 - sweep 3: 110/2 bpm
@@ -93,7 +143,7 @@
 - economy down: 65 bpm
 - phrygian rhythm up and down: 75 bpm
 - phrygian rhythm shifting: 75 bpm
-- phrygian tap + thrill: 75 bpm
+- phrygian tap + trill: 75 bpm
 - sweep up: 45 bpm
 - sweep 2: 80 bpm
 - sweep 3: 110/2 bpm
@@ -120,7 +170,7 @@
 - phrygian rhythm shifting: 75 bpm
 - phrygian tap: 75 bpm
 - sweep up: 45 bpm
-- phrygian rhythm thrill: 65 bpm
+- phrygian rhythm trill: 65 bpm
 - sweep 2: 75 bpm
 - sweep 3: 50 bpm
 
@@ -144,7 +194,7 @@
 - phrygian rhythm shifting: 75 bpm
 - phrygian tap: 75 bpm
 - sweep up: 45 bpm
-- phrygian rhythm thrill: 65 bpm
+- phrygian rhythm trill: 65 bpm
 - sweep 2: 65 bpm
 - sweep 3: 50 bpm
 
@@ -168,7 +218,7 @@
 - phrygian rhythm shifting: 75 bpm
 - phrygian tap: 75 bpm
 - sweep up: 45 bpm
-- phrygian rhythm thrill: 65 bpm
+- phrygian rhythm trill: 65 bpm
 - sweep 2: 65 bpm
 - sweep 3: 50 bpm
 
@@ -192,7 +242,7 @@
 - phrygian rhythm shifting: 70 bpm
 - phrygian tap: 65 bpm
 - sweep up: 40 bpm
-- phrygian rhythm thrill: 65 bpm
+- phrygian rhythm trill: 65 bpm
 - sweep 2: 65 bpm
 - sweep 3: 50 bpm
 
@@ -216,7 +266,7 @@
 - phrygian rhythm shifting: 70 bpm
 - phrygian tap: 65 bpm
 - sweep up: 40 bpm
-- phrygian rhythm thrill: 65 bpm
+- phrygian rhythm trill: 65 bpm
 - sweep 2: 65 bpm
 - sweep 3: 50 bpm
 
@@ -240,7 +290,7 @@
 - phrygian rhythm shifting: 65 bpm
 - phrygian tap: 65 bpm
 - sweep up: 40 bpm
-- phrygian rhythm thrill: 65 bpm
+- phrygian rhythm trill: 65 bpm
 - sweep 2: 65 bpm
 - sweep 3: 45 bpm
 
@@ -265,7 +315,7 @@
 - phrygian rhythm shifting: 65 bpm
 - phrygian tap: 40 bpm
 - sweep up: 40 bpm
-- phrygian rhythm thrill: 65 bpm
+- phrygian rhythm trill: 65 bpm
 - sweep 2: 65 bpm
 - sweep 3: 45 bpm
 
