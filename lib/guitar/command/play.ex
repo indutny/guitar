@@ -46,7 +46,7 @@ defmodule Guitar.Command.Play do
 
     scheduled
     |> Enum.map(fn ex ->
-      case prompt(ex, past_tempo[ex.name]) do
+      case prompt(ex, past_tempo[ex.name] || []) do
         nil ->
           nil
 
@@ -60,7 +60,7 @@ defmodule Guitar.Command.Play do
     |> IO.puts()
   end
 
-  def prompt(ex, past_tempo \\ []) do
+  def prompt(ex, past_tempo) do
     past = [" (past: ", Enum.join(past_tempo, ", "), ")"]
 
     [A.white(), to_string(ex), A.reset(), past]
@@ -105,7 +105,7 @@ defmodule Guitar.Command.Play do
         rescue
           MatchError ->
             IO.puts("Invalid input, please try again")
-            prompt(ex)
+            prompt(ex, past_tempo)
         end
     end
   end
