@@ -1,5 +1,117 @@
 [
   {
+    "date": "2020-10-23",
+    "exercises": [
+      {
+        "bpm": 167,
+        "name": "singles"
+      },
+      {
+        "bpm": 87,
+        "name": "triplets",
+        "strings": "even"
+      },
+      {
+        "bpm": 105,
+        "name": "sixteenths",
+        "strings": "odd"
+      },
+      {
+        "bpm": 85,
+        "name": "crossing 1-3",
+        "strings": "odd"
+      },
+      {
+        "bpm": 85,
+        "name": "crossing 3-1",
+        "strings": "even"
+      },
+      {
+        "bpm": 85,
+        "name": "crossing 3-3",
+        "strings": "odd"
+      },
+      {
+        "bpm": 75,
+        "name": "skipping 1-3",
+        "strings": "odd"
+      },
+      {
+        "bpm": 75,
+        "name": "skipping 3-1",
+        "strings": "even"
+      },
+      {
+        "bpm": 70,
+        "name": "skipping 3-3",
+        "strings": "odd"
+      },
+      {
+        "bpm": 75,
+        "name": "minor up and down"
+      },
+      {
+        "bpm": 75,
+        "name": "phrygian up and down"
+      },
+      {
+        "bpm": 75,
+        "name": "phrygian shifting"
+      },
+      {
+        "bpm": 75,
+        "name": "economy up"
+      },
+      {
+        "bpm": 69,
+        "name": "economy down"
+      },
+      {
+        "bpm": 80,
+        "name": "phrygian rhythm up and down"
+      },
+      {
+        "bpm": 80,
+        "name": "phrygian rhythm shifting"
+      },
+      {
+        "bpm": 80,
+        "name": "phrygian tap + trill"
+      },
+      {
+        "bpm": 55,
+        "name": "sweep up"
+      },
+      {
+        "bpm": 85,
+        "name": "sweep 2"
+      },
+      {
+        "bpm": 110,
+        "name": "sweep 3",
+        "slowdown": 2
+      },
+      {
+        "bpm": 80,
+        "name": "sweep arpeggio"
+      },
+      {
+        "bpm": 110,
+        "name": "4 sweep",
+        "slowdown": 2
+      },
+      {
+        "bpm": 110,
+        "name": "sweep 5+2 up",
+        "slowdown": 2
+      },
+      {
+        "bpm": 77,
+        "name": "jg chromatic legato lick"
+      }
+    ]
+  },
+  {
     "date": "2020-10-22",
     "exercises": [
       {
