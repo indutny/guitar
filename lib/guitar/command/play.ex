@@ -116,16 +116,12 @@ defmodule Guitar.Command.Play do
     captures = Regex.named_captures(pattern, input)
     %{"bpm" => bpm, "slowdown" => slowdown, "notes" => notes} = captures
 
-    {bpm, ""} = Integer.parse(bpm)
+    bpm = String.to_integer(bpm)
 
     slowdown =
       case slowdown do
-        "" ->
-          nil
-
-        x ->
-          {slowdown, ""} = Integer.parse(x)
-          slowdown
+        "" -> nil
+        x -> String.to_integer(x)
       end
 
     notes = if notes == "", do: nil, else: notes

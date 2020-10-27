@@ -36,7 +36,7 @@ defmodule Guitar.Convert do
     %{"bpm" => bpm, "name" => name, "strings" => strings, "notes" => notes} =
       Regex.named_captures(pattern, ex)
 
-    {bpm, ""} = Integer.parse(bpm)
+    bpm = String.to_integer(bpm)
 
     strings =
       case strings do

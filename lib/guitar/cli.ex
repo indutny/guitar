@@ -63,7 +63,7 @@ defmodule Guitar.CLI do
 
     {:ok, storage} = Guitar.Storage.start_link(options[:file] || "log.json")
 
-    command_fn.(storage, Keyword.merge(options, [today: today]))
+    command_fn.(storage, Keyword.merge(options, today: today))
 
     Guitar.Storage.stop(storage)
   end
