@@ -1,5 +1,33 @@
 # Guitar Practice
 
+## 2020-10-29
+
+- singles: 168 bpm
+- triplets: 90 bpm, even strings
+- sixteenths: 110 bpm, odd strings
+- crossing 1-3: 90 bpm, odd strings
+- crossing 3-1: 90 bpm, even strings
+- crossing 3-3: 90 bpm, odd strings
+- skipping 1-3: 75 bpm, odd strings
+- skipping 3-1: 75 bpm, even strings
+- skipping 3-3: 75 bpm, odd strings
+- minor up and down: 85 bpm
+- phrygian up and down: 85 bpm
+- phrygian shifting: 85 bpm
+- economy up: 77 bpm
+- economy down: 71 bpm
+- phrygian rhythm up and down: 80 bpm
+- phrygian rhythm shifting: 80 bpm
+- phrygian tap + trill: 80 bpm
+- sweep up: 55 bpm
+- sweep 2: 85 bpm
+- sweep 3: 115 bpm
+- sweep arpeggio: 90 bpm
+- 4 sweep: 75 bpm
+- sweep 5+2 up: 110 bpm
+- jg chromatic legato lick: 78 bpm
+- sweep-5-3-alt: 90 bpm
+
 ## 2020-10-28
 
 - singles: 168 bpm

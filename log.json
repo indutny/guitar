@@ -1,5 +1,118 @@
 [
   {
+    "date": "2020-10-29",
+    "exercises": [
+      {
+        "bpm": 168,
+        "name": "singles"
+      },
+      {
+        "bpm": 90,
+        "name": "triplets",
+        "strings": "even"
+      },
+      {
+        "bpm": 110,
+        "name": "sixteenths",
+        "strings": "odd"
+      },
+      {
+        "bpm": 90,
+        "name": "crossing 1-3",
+        "strings": "odd"
+      },
+      {
+        "bpm": 90,
+        "name": "crossing 3-1",
+        "strings": "even"
+      },
+      {
+        "bpm": 90,
+        "name": "crossing 3-3",
+        "strings": "odd"
+      },
+      {
+        "bpm": 75,
+        "name": "skipping 1-3",
+        "strings": "odd"
+      },
+      {
+        "bpm": 75,
+        "name": "skipping 3-1",
+        "strings": "even"
+      },
+      {
+        "bpm": 75,
+        "name": "skipping 3-3",
+        "strings": "odd"
+      },
+      {
+        "bpm": 85,
+        "name": "minor up and down"
+      },
+      {
+        "bpm": 85,
+        "name": "phrygian up and down"
+      },
+      {
+        "bpm": 85,
+        "name": "phrygian shifting"
+      },
+      {
+        "bpm": 77,
+        "name": "economy up"
+      },
+      {
+        "bpm": 71,
+        "name": "economy down"
+      },
+      {
+        "bpm": 80,
+        "name": "phrygian rhythm up and down"
+      },
+      {
+        "bpm": 80,
+        "name": "phrygian rhythm shifting"
+      },
+      {
+        "bpm": 80,
+        "name": "phrygian tap + trill"
+      },
+      {
+        "bpm": 55,
+        "name": "sweep up"
+      },
+      {
+        "bpm": 85,
+        "name": "sweep 2"
+      },
+      {
+        "bpm": 115,
+        "name": "sweep 3"
+      },
+      {
+        "bpm": 90,
+        "name": "sweep arpeggio"
+      },
+      {
+        "bpm": 75,
+        "name": "4 sweep"
+      },
+      {
+        "bpm": 110,
+        "name": "sweep 5+2 up"
+      },
+      {
+        "bpm": 78,
+        "name": "jg chromatic legato lick"
+      },
+      {
+        "bpm": 90,
+        "name": "sweep-5-3-alt"
+      }
+    ]
+  },
+  {
     "date": "2020-10-28",
     "exercises": [
       {
