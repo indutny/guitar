@@ -1,5 +1,141 @@
 # Guitar Practice
 
+## 2020-11-05
+
+- singles: 168 bpm
+- triplets: 90 bpm, odd strings, _(stabilize)_
+- sixteenths: 110 bpm, even strings, _(stabilize)_
+- crossing 1-3: 90 bpm, even strings
+- crossing 3-1: 90 bpm, odd strings
+- crossing 3-3: 85 bpm, even strings, _(stabiize)_
+- skipping 1-3: 75 bpm, even strings
+- skipping 3-1: 75 bpm, odd strings
+- skipping 3-3: 70 bpm, even strings
+- minor up and down: 75 bpm, _(stabilize)_
+- phrygian up and down: 75 bpm, _(stabilize)_
+- phrygian shifting: 75 bpm, _(stabilize)_
+- economy up: 70 bpm, _(stabilize)_
+- economy down: 60 bpm
+- phrygian rhythm up and down: 70 bpm
+- phrygian rhythm shifting: 70 bpm
+- phrygian tap + trill: 70 bpm
+- sweep up: 50 bpm
+- sweep 2: 80 bpm
+- sweep 3: 128 bpm
+- sweep arpeggio: 95 bpm, _(try slower)_
+- 4 sweep: 90 bpm
+- sweep 5+2 up: 100 bpm
+- sweep-5-3-alt: 100 bpm
+- jg chromatic legato lick: 78 bpm
+
+## 2020-11-04
+
+- singles: 168 bpm
+- triplets: 90 bpm, even strings, _(stabilize)_
+- sixteenths: 110 bpm, odd strings, _(stabilize)_
+- crossing 1-3: 90 bpm, odd strings
+- crossing 3-1: 90 bpm, even strings
+- crossing 3-3: 85 bpm, odd strings, _(stabiize)_
+- skipping 1-3: 75 bpm, odd strings
+- skipping 3-1: 75 bpm, even strings
+- skipping 3-3: 70 bpm, odd strings
+- minor up and down: 75 bpm, _(stabilize)_
+- phrygian up and down: 75 bpm, _(stabilize)_
+- phrygian shifting: 75 bpm, _(stabilize)_
+- economy up: 70 bpm, _(stabilize)_
+- economy down: 60 bpm
+- phrygian rhythm up and down: 70 bpm
+- phrygian rhythm shifting: 70 bpm
+- phrygian tap + trill: 70 bpm
+- sweep up: 50 bpm
+- sweep 2: 80 bpm
+- sweep 3: 128 bpm
+- sweep arpeggio: 95 bpm
+- 4 sweep: 90 bpm
+- sweep 5+2 up: 100 bpm
+- sweep-5-3-alt: 100 bpm
+- jg chromatic legato lick: 78 bpm
+- jg legato left 7-4-5-7-5-4: 120 bpm, even strings
+- jg legato left 4-7-4-5-6-7-6-5: 120 bpm, odd strings
+- jg legato left 7-4-5-6-7-6-5-4: 120 bpm, even strings
+- jg legato left 5-9-5-7-8-9-8-7: 120 bpm, odd strings
+- jg legato left 4-7-4-5-6-7-6-5-9-5-7-8-9-8-7-5: 120 bpm, even strings
+- jg shred 4-2: 70 bpm
+- semaphore 5>8-7-5-7-8<5-: 70 bpm
+- jg 3-pentatonic-down: 70 bpm
+
+## 2020-11-03
+
+- singles: 168 bpm
+- triplets: 95 bpm, odd strings
+- sixteenths: 115 bpm, even strings
+- crossing 1-3: 95 bpm, even strings
+- crossing 3-1: 95 bpm, odd strings
+- crossing 3-3: 90 bpm, even strings
+- skipping 1-3: 78 bpm, even strings
+- skipping 3-1: 78 bpm, odd strings
+- skipping 3-3: 78 bpm, even strings
+- minor up and down: 80 bpm
+- phrygian up and down: 80 bpm
+- phrygian shifting: 80 bpm
+- economy up: 78 bpm
+- economy down: 72 bpm
+- phrygian rhythm up and down: 80 bpm
+- phrygian rhythm shifting: 80 bpm
+- phrygian tap + trill: 80 bpm
+- sweep up: 55 bpm
+- sweep 2: 88 bpm
+- sweep 3: 128 bpm
+- sweep arpeggio: 95 bpm
+- 4 sweep: 90 bpm
+- sweep 5+2 up: 115 bpm
+- sweep-5-3-alt: 100 bpm
+- jg chromatic legato lick: 78 bpm
+- jg legato left 7-4-5-7-5-4: 120 bpm, odd strings
+- jg legato left 4-7-4-5-6-7-6-5: 120 bpm, even strings
+- jg legato left 7-4-5-6-7-6-5-4: 120 bpm, odd strings
+- jg legato left 5-9-5-7-8-9-8-7: 120 bpm, even strings
+- jg legato left 4-7-4-5-6-7-6-5-9-5-7-8-9-8-7-5: 120 bpm, odd strings
+- jg shred 4-2: 70 bpm
+- semaphore 5>8-7-5-7-8<5-: 70 bpm
+- jg 3-pentatonic-down: 70 bpm
+
+## 2020-11-02
+
+- singles: 168 bpm
+- triplets: 95 bpm, even strings
+- sixteenths: 115 bpm, odd strings
+- crossing 1-3: 95 bpm, odd strings
+- crossing 3-1: 95 bpm, even strings
+- crossing 3-3: 90 bpm, odd strings
+- skipping 1-3: 78 bpm, odd strings
+- skipping 3-1: 78 bpm, even strings
+- skipping 3-3: 78 bpm, odd strings
+- minor up and down: 85 bpm
+- phrygian up and down: 85 bpm
+- phrygian shifting: 85 bpm
+- economy up: 78 bpm
+- economy down: 72 bpm
+- phrygian rhythm up and down: 85 bpm
+- phrygian rhythm shifting: 85 bpm
+- phrygian tap + trill: 85 bpm
+- sweep up: 55 bpm
+- sweep 2: 88 bpm
+- sweep 3: 128 bpm
+- sweep arpeggio: 95 bpm
+- 4 sweep: 90 bpm
+- sweep 5+2 up: 115 bpm
+- sweep-5-3-alt: 100 bpm
+- jg chromatic legato lick: 78 bpm
+- jg legato left 7-4-5-7-5-4: 120 bpm, even strings
+- jg legato left 4-7-4-5-6-7-6-5: 120 bpm, odd strings
+- jg legato left 7-4-5-6-7-6-5-4: 120 bpm, even strings
+- jg legato left 5-9-5-7-8-9-8-7: 120 bpm, odd strings
+- jg legato left 4-7-4-5-6-7-6-5-9-5-7-8-9-8-7-5: 120 bpm, even strings
+- jg shred 4-2: 70 bpm
+- semaphore 5>8-7-5-7-8<5-: 70 bpm
+- jg 3-pentatonic-down: 70 bpm
+
 ## 2020-11-01
 
 - singles: 168 bpm

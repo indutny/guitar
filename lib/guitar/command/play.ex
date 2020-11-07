@@ -20,7 +20,7 @@ defmodule Guitar.Command.Play do
 
     past_tempo =
       past
-      |> Enum.slice(1, 4)
+      |> Enum.slice(0, 4)
       |> Enum.map(fn entry ->
         Enum.map(entry.exercises, fn ex ->
           {ex.name, Guitar.Log.Exercise.bpm_to_string(ex)}
