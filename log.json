@@ -1,5 +1,20 @@
 [
   {
+    "date": "2020-11-11",
+    "exercises": [
+      {
+        "bpm": 168,
+        "name": "singles"
+      },
+      {
+        "bpm": 90,
+        "name": "triplets",
+        "notes": "stabilize",
+        "strings": "odd"
+      }
+    ]
+  },
+  {
     "date": "2020-11-10",
     "exercises": [
       {
