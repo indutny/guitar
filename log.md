@@ -1,9 +1,78 @@
 # Guitar Practice
 
+## 2020-11-12
+
+- singles: 168 bpm
+- triplets: 90 bpm, even strings, _(stabilize)_
+- sixteenths: 110 bpm, odd strings, _(stabilize)_
+- crossing 3-3: 80 bpm, odd strings
+- skipping 3-3: 70 bpm, odd strings
+- minor up and down: 75 bpm, _(stabilize)_
+- phrygian up and down: 75 bpm, _(stabilize)_
+- phrygian shifting: 75 bpm, _(stabilize)_
+- economy up: 70 bpm, _(stabilize)_
+- economy down: 70 bpm
+- phrygian rhythm up and down: 70 bpm
+- phrygian rhythm shifting: 70 bpm
+- phrygian tap + trill: 70 bpm
+- sweep up: 50 bpm
+- sweep 2: 80 bpm
+- sweep 3: 128 bpm
+- sweep arpeggio: 90 bpm, _(stabilize)_
+- 4 sweep: 90 bpm
+- sweep 5+2 up: 100 bpm
+- sweep-5-3-alt: 100 bpm
+- tapping pachelbel: 90 bpm
+- jg chromatic legato lick: 78 bpm
+- jg legato left 7-4-5-7-5-4: 140 bpm, even strings
+- jg legato left 4-7-4-5-6-7-6-5: 140 bpm, odd strings
+- jg legato left 7-4-5-6-7-6-5-4: 140 bpm, even strings
+- jg legato left 5-9-5-7-8-9-8-7: 140 bpm, odd strings
+- jg legato left 4-7-4-5-6-7-6-5-9-5-7-8-9-8-7-5: 140 bpm, even strings
+- jg shred 4-2: 70 bpm
+- semaphore 5>8-7-5-7-8<5-: 70 bpm
+- jg 3-pentatonic-down: 70 bpm
+- thump thumb: 170 bpm
+- thump triple: 120 bpm
+- thump quadruple: 120 bpm
+- thump quintuple: 120 bpm
+
 ## 2020-11-11
 
 - singles: 168 bpm
 - triplets: 90 bpm, odd strings, _(stabilize)_
+- sixteenths: 110 bpm, even strings, _(stabilize)_
+- crossing 3-3: 80 bpm, even strings
+- skipping 3-3: 70 bpm, even strings
+- minor up and down: 75 bpm, _(stabilize)_
+- phrygian up and down: 75 bpm, _(stabilize)_
+- phrygian shifting: 75 bpm, _(stabilize)_
+- economy up: 70 bpm, _(stabilize)_
+- economy down: 70 bpm
+- phrygian rhythm up and down: 70 bpm
+- phrygian rhythm shifting: 70 bpm
+- phrygian tap + trill: 70 bpm
+- sweep up: 50 bpm
+- sweep 2: 80 bpm
+- sweep 3: 128 bpm
+- sweep arpeggio: 90 bpm, _(stabilize)_
+- 4 sweep: 90 bpm
+- sweep 5+2 up: 100 bpm
+- sweep-5-3-alt: 100 bpm
+- tapping pachelbel: 90 bpm
+- jg chromatic legato lick: 78 bpm
+- jg legato left 7-4-5-7-5-4: 140 bpm, odd strings
+- jg legato left 4-7-4-5-6-7-6-5: 140 bpm, even strings
+- jg legato left 7-4-5-6-7-6-5-4: 140 bpm, odd strings
+- jg legato left 5-9-5-7-8-9-8-7: 140 bpm, even strings
+- jg legato left 4-7-4-5-6-7-6-5-9-5-7-8-9-8-7-5: 140 bpm, odd strings
+- jg shred 4-2: 70 bpm
+- semaphore 5>8-7-5-7-8<5-: 70 bpm
+- jg 3-pentatonic-down: 70 bpm
+- thump thumb: 170 bpm
+- thump triple: 120 bpm
+- thump quadruple: 120 bpm
+- thump quintuple: 120 bpm
 
 ## 2020-11-10
 
