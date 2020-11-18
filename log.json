@@ -1,5 +1,174 @@
 [
   {
+    "date": "2020-11-17",
+    "exercises": [
+      {
+        "bpm": 170,
+        "name": "singles"
+      },
+      {
+        "bpm": 90,
+        "name": "triplets",
+        "notes": "stabilize",
+        "strings": "odd"
+      },
+      {
+        "bpm": 110,
+        "name": "sixteenths",
+        "notes": "stabilize",
+        "strings": "even"
+      },
+      {
+        "bpm": 80,
+        "name": "crossing 3-3",
+        "strings": "even"
+      },
+      {
+        "bpm": 70,
+        "name": "skipping 3-3",
+        "strings": "even"
+      },
+      {
+        "bpm": 75,
+        "name": "minor up and down",
+        "notes": "stabilize"
+      },
+      {
+        "bpm": 75,
+        "name": "phrygian up and down",
+        "notes": "stabilize"
+      },
+      {
+        "bpm": 75,
+        "name": "phrygian shifting",
+        "notes": "stabilize"
+      },
+      {
+        "bpm": 70,
+        "name": "economy up",
+        "notes": "stabilize"
+      },
+      {
+        "bpm": 70,
+        "name": "economy down"
+      },
+      {
+        "bpm": 75,
+        "name": "phrygian rhythm up and down"
+      },
+      {
+        "bpm": 75,
+        "name": "phrygian rhythm shifting"
+      },
+      {
+        "bpm": 75,
+        "name": "phrygian tap + trill"
+      },
+      {
+        "bpm": 50,
+        "name": "sweep up"
+      },
+      {
+        "bpm": 85,
+        "name": "sweep 2"
+      },
+      {
+        "bpm": 130,
+        "name": "sweep 3"
+      },
+      {
+        "bpm": 90,
+        "name": "sweep arpeggio",
+        "notes": "stabilize"
+      },
+      {
+        "bpm": 90,
+        "name": "4 sweep"
+      },
+      {
+        "bpm": 100,
+        "name": "sweep 5+2 up"
+      },
+      {
+        "bpm": 100,
+        "name": "sweep-5-3-alt"
+      },
+      {
+        "bpm": 90,
+        "name": "tapping pachelbel"
+      },
+      {
+        "bpm": 78,
+        "name": "jg chromatic legato lick"
+      },
+      {
+        "bpm": 160,
+        "name": "jg legato left 7-4-5-7-5-4",
+        "strings": "odd"
+      },
+      {
+        "bpm": 160,
+        "name": "jg legato left 4-7-4-5-6-7-6-5",
+        "strings": "even"
+      },
+      {
+        "bpm": 160,
+        "name": "jg legato left 7-4-5-6-7-6-5-4",
+        "strings": "odd"
+      },
+      {
+        "bpm": 145,
+        "name": "jg legato left 5-9-5-7-8-9-8-7",
+        "strings": "even"
+      },
+      {
+        "bpm": 145,
+        "name": "jg legato left 4-7-4-5-6-7-6-5-9-5-7-8-9-8-7-5",
+        "strings": "odd"
+      },
+      {
+        "bpm": 80,
+        "name": "jg shred 4-2"
+      },
+      {
+        "bpm": 80,
+        "name": "semaphore 5>8-7-5-7-8<5-"
+      },
+      {
+        "bpm": 70,
+        "name": "jg 3-pentatonic-down"
+      },
+      {
+        "bpm": 140,
+        "name": "thump thumb"
+      },
+      {
+        "bpm": 120,
+        "name": "thump triple"
+      },
+      {
+        "bpm": 120,
+        "name": "thump quadruple"
+      },
+      {
+        "bpm": 120,
+        "name": "thump quintuple"
+      },
+      {
+        "bpm": 120,
+        "name": "graham wtf lick"
+      },
+      {
+        "bpm": 120,
+        "name": "jg descending 3-5-6-7"
+      },
+      {
+        "bpm": 120,
+        "name": "jg a major economy up"
+      }
+    ]
+  },
+  {
     "date": "2020-11-16",
     "exercises": [
       {
