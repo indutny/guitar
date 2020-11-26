@@ -103,6 +103,92 @@
       {
         "bpm": 100,
         "name": "tapping pachelbel"
+      },
+      {
+        "bpm": 160,
+        "name": "jg chromatic legato lick"
+      },
+      {
+        "bpm": 165,
+        "name": "jg legato left 7-4-5-7-5-4",
+        "strings": "odd"
+      },
+      {
+        "bpm": 165,
+        "name": "jg legato left 4-7-4-5-6-7-6-5",
+        "strings": "even"
+      },
+      {
+        "bpm": 165,
+        "name": "jg legato left 7-4-5-6-7-6-5-4",
+        "strings": "odd"
+      },
+      {
+        "bpm": 150,
+        "name": "jg legato left 5-9-5-7-8-9-8-7",
+        "strings": "even"
+      },
+      {
+        "bpm": 150,
+        "name": "jg legato left 4-7-4-5-6-7-6-5-9-5-7-8-9-8-7-5",
+        "strings": "odd"
+      },
+      {
+        "bpm": 120,
+        "name": "jg legato left 7-4-6-7-9-7-6-4",
+        "strings": "even"
+      },
+      {
+        "bpm": 120,
+        "name": "jg 5-7-8-9-8-7-5x2 9-6-7-8-9-8-7-6"
+      },
+      {
+        "bpm": 120,
+        "name": "jg skipping"
+      },
+      {
+        "bpm": 120,
+        "name": "jg legato + economy"
+      },
+      {
+        "bpm": 120,
+        "name": "jg legato + economy #5"
+      },
+      {
+        "bpm": 75,
+        "name": "jg shred 4-2"
+      },
+      {
+        "bpm": 80,
+        "name": "semaphore 5>8-7-5-7-8<5-"
+      },
+      {
+        "bpm": 70,
+        "name": "jg 3-pentatonic-down"
+      },
+      {
+        "bpm": 140,
+        "name": "thump thumb"
+      },
+      {
+        "bpm": 140,
+        "name": "thump triple"
+      },
+      {
+        "bpm": 140,
+        "name": "thump quadruple"
+      },
+      {
+        "bpm": 140,
+        "name": "thump quintuple"
+      },
+      {
+        "bpm": 120,
+        "name": "graham wtf lick"
+      },
+      {
+        "bpm": 120,
+        "name": "jg a major economy up"
       }
     ]
   },
