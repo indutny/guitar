@@ -1,5 +1,120 @@
 [
   {
+    "date": "2020-12-01",
+    "exercises": [
+      {
+        "bpm": 165,
+        "name": "singles"
+      },
+      {
+        "bpm": 90,
+        "name": "triplets",
+        "notes": "c",
+        "strings": "odd"
+      },
+      {
+        "bpm": 80,
+        "name": "triplets (ring)",
+        "strings": "even"
+      },
+      {
+        "bpm": 110,
+        "name": "sixteenths",
+        "notes": "stabilize",
+        "strings": "even"
+      },
+      {
+        "bpm": 80,
+        "name": "crossing 3-3",
+        "strings": "even"
+      },
+      {
+        "bpm": 70,
+        "name": "skipping 3-3",
+        "notes": "both ring and middle",
+        "strings": "even"
+      },
+      {
+        "bpm": 75,
+        "name": "minor up and down",
+        "notes": "stabilize"
+      },
+      {
+        "bpm": 75,
+        "name": "phrygian up and down",
+        "notes": "stabilize"
+      },
+      {
+        "bpm": 75,
+        "name": "phrygian shifting",
+        "notes": "stabilize"
+      },
+      {
+        "bpm": 70,
+        "name": "economy up",
+        "notes": "stabilize"
+      },
+      {
+        "bpm": 70,
+        "name": "economy down"
+      },
+      {
+        "bpm": 75,
+        "name": "phrygian rhythm up and down"
+      },
+      {
+        "bpm": 75,
+        "name": "phrygian rhythm shifting"
+      },
+      {
+        "bpm": 75,
+        "name": "phrygian tap + trill"
+      },
+      {
+        "bpm": 55,
+        "name": "sweep up"
+      },
+      {
+        "bpm": 85,
+        "name": "sweep 2"
+      },
+      {
+        "bpm": 135,
+        "name": "sweep 3"
+      },
+      {
+        "bpm": 90,
+        "name": "sweep arpeggio",
+        "notes": "c"
+      },
+      {
+        "bpm": 90,
+        "name": "4 sweep"
+      },
+      {
+        "bpm": 100,
+        "name": "sweep 5+2 up"
+      },
+      {
+        "bpm": 100,
+        "name": "sweep-5-3-alt"
+      },
+      {
+        "bpm": 100,
+        "name": "tapping pachelbel"
+      },
+      {
+        "bpm": 160,
+        "name": "jg chromatic legato lick"
+      },
+      {
+        "bpm": 165,
+        "name": "jg legato left 7-4-5-7-5-4",
+        "strings": "odd"
+      }
+    ]
+  },
+  {
     "date": "2020-11-30",
     "exercises": [
       {
