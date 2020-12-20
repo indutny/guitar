@@ -163,6 +163,18 @@
       {
         "bpm": 120,
         "name": "thump quintuple"
+      },
+      {
+        "bpm": 80,
+        "name": "jg sweep 1"
+      },
+      {
+        "bpm": 80,
+        "name": "jg sweep 2"
+      },
+      {
+        "bpm": 80,
+        "name": "jg sweep 3"
       }
     ]
   },
