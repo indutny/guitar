@@ -158,6 +158,22 @@
       {
         "bpm": 70,
         "name": "jg 3-pentatonic-down"
+      },
+      {
+        "bpm": 140,
+        "name": "rh arp #1"
+      },
+      {
+        "bpm": 140,
+        "name": "rh arp #2"
+      },
+      {
+        "bpm": 140,
+        "name": "rh arp #3"
+      },
+      {
+        "bpm": 140,
+        "name": "rh arp #4"
       }
     ]
   },
